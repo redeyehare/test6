@@ -1,7 +1,7 @@
 [
-  {"name":"v2ray","num":123,"list":["123","123"]},
-  {"name":"clash","num":123,"list":["123","123"]},
-  {"name":"singbox","num":123,"list":["123","123"]}
+  {"name":"v2ray","num":1,"list":["123"]},
+  {"name":"clash","num":3,"list":["123","123","123"]},
+  {"name":"singbox","num":2,"list":["123","123"]}
 ]
 
 
