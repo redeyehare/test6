@@ -1,5 +1,9 @@
 [
   {"name":"v2ray","num":1,"list":["123"]},
-  {"name":"clash","num":3,"list":["123","123","123"]},
+  {"name":"clash","num":3,"list":[
+    "https://node.openclash.cc/uploads/2025/08/0-20250820.yaml",
+    "https://node.openclash.cc/uploads/2025/08/1-20250820.yaml",
+    "https://node.openclash.cc/uploads/2025/08/2-20250820.yaml"
+  ]},
   {"name":"singbox","num":2,"list":["123","123"]}
 ]
