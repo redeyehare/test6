@@ -8,7 +8,7 @@
     ]},
     {"name":"singbox","num":2,"list":["123","123"]}
   ],
-  "config":{
+  "WEBConfig":{
     "ShoppingMall":true
   }
 }
