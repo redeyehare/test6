@@ -28,7 +28,7 @@
   "WEBConfig": {
     "ShoppingMall": true,
     "blacklist":[
-      
+      "4F08FC5A-C8D2-5352-82C7-88BC5FACCF1A"
     ]
   }
 }
