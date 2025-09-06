@@ -11,9 +11,9 @@
       "name": "clash",
       "num": 3,
       "list": [
-        { "describe": "123", "url": "https://node.openclash.cc/uploads/2025/08/0-20250820.yaml" },
-        { "describe": "123", "url": "https://node.openclash.cc/uploads/2025/08/1-20250820.yaml" },
-        { "describe": "123", "url": "https://node.openclash.cc/uploads/2025/08/2-20250820.yaml" }
+        { "describe": "快速1,10 个节点.", "url": "https://node.openclash.cc/uploads/2025/08/0-20250820.yaml" },
+        { "describe": "快速2,10 个节点.", "url": "https://node.openclash.cc/uploads/2025/08/1-20250820.yaml" },
+        { "describe": "快速3,10 个节点.", "url": "https://node.openclash.cc/uploads/2025/08/2-20250820.yaml" }
       ]
     },
     {
@@ -26,6 +26,9 @@
     }
   ],
   "WEBConfig": {
-    "ShoppingMall": true
+    "ShoppingMall": false,
+    "blacklist":[
+      
+    ]
   }
 }
