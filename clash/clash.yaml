@@ -9,77 +9,42 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
   fallback: [8.8.8.8, 8.8.4.4, 'tls://1.0.0.1:853', 'tls://dns.google:853']
 proxies:
-- {auth: Yet-Another-Public-Config-1, name: '[Hysteria2] All-@IRAN_V2RAY1 #3', obfs: salamander,
-  obfs-password: Yet-Another-Public-Config-1, password: Yet-Another-Public-Config-1,
-  port: 36400, server: yapc-1.adamhayward.co.uk, skip-cert-verify: false, sni: YAPC-1.afshin.ir,
-  type: hysteria2, delay: 1236}
-- {auth: Yet-Another-Public-Config-1, name: '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
-    #1', obfs: salamander, obfs-password: Yet-Another-Public-Config-1, password: Yet-Another-Public-Config-1,
-  port: 36600, server: yapc-1.adamhayward.co.uk, skip-cert-verify: false, sni: YAPC-1.afshin.ir,
-  type: hysteria2, delay: 1263}
-- {cipher: aes-256-cfb, name: '[SS] 🇻🇳 越南|@ripaojiedian', password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV,
-  port: 38388, server: 103.186.155.28, type: ss, delay: 1463}
-- {cipher: chacha20-ietf-poly1305, name: 美国_1, password: Nk9asglDzHzjktVzTkvhaA, port: 443,
-  server: arxfw2b78fi2q9hzylhn.freesocks.work, type: ss, delay: 1221}
-- {cipher: chacha20-ietf-poly1305, name: 美国_42, password: p78naCf2EfOlRSLTX0wFVx,
-  port: 443, server: pupas-shirting-unsung.freesocks.work, type: ss, delay: 628}
-- alterId: 0
-  cipher: auto
-  name: 美国_43
-  network: ws
-  port: 44579
-  server: 2001:bc8:32d7:302::10
-  servername: ''
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  ws-opts:
-    headers: {Host: ''}
-    path: ''
-  delay: 1108
+- {name: 默认节点1, type: ss, server: example.com, port: 8388, cipher: aes-256-cfb, password: password,
+  delay: 0}
 proxy-groups:
 - name: 🚀 节点选择
   type: select
-  proxies: [♻️ 自动选择, DIRECT, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻
-      ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [♻️ 自动选择, DIRECT, 默认节点1]
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies: ['[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee
-      #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [DIRECT, 默认节点1]
 - name: 🌍 国外媒体
   type: select
-  proxies: [🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2]
-      𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, 默认节点1]
 - name: 📲 电报信息
   type: select
-  proxies: [🚀 节点选择, 🎯 全球直连, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠
-      𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [🚀 节点选择, 🎯 全球直连, 默认节点1]
 - name: Ⓜ️ 微软服务
   type: select
-  proxies: [🎯 全球直连, 🚀 节点选择, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠
-      𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [🎯 全球直连, 🚀 节点选择, 默认节点1]
 - name: 🍎 苹果服务
   type: select
-  proxies: [🚀 节点选择, 🎯 全球直连, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠
-      𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [🚀 节点选择, 🎯 全球直连, 默认节点1]
 - name: 🎯 全球直连
   type: select
-  proxies: [DIRECT, 🚀 节点选择, ♻️ 自动选择, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2]
-      𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [DIRECT, 🚀 节点选择, ♻️ 自动选择, 默认节点1]
 - name: 🛑 全球拦截
   type: select
-  proxies: [REJECT, DIRECT, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠
-      𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [REJECT, DIRECT, 默认节点1]
 - name: 🍃 应用净化
   type: select
-  proxies: [REJECT, DIRECT, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2] 𝗝𝗼𝗶𝗻 ➠
-      𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [REJECT, DIRECT, 默认节点1]
 - name: 🐟 漏网之鱼
   type: select
-  proxies: [🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, '[Hysteria2] All-@IRAN_V2RAY1 #3', '[Hysteria2]
-      𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #1', '[SS] 🇻🇳 越南|@ripaojiedian', 美国_1, 美国_42, 美国_43]
+  proxies: [🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 默认节点1]
 rules: ['DOMAIN-SUFFIX,local,DIRECT', 'IP-CIDR,192.168.0.0/16,DIRECT,no-resolve',
   'IP-CIDR,10.0.0.0/8,DIRECT,no-resolve', 'IP-CIDR,172.16.0.0/12,DIRECT,no-resolve',
   'IP-CIDR,127.0.0.0/8,DIRECT,no-resolve', 'IP-CIDR,100.64.0.0/10,DIRECT,no-resolve',
