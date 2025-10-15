@@ -1,0 +1,458 @@
+allow-lan: true
+dns:
+  enable: true
+  fallback:
+  - https://dns.pub/dns-query
+  - https://doh.pub/dns-query
+  nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+external-controller: 127.0.0.1:9090
+log-level: debug
+mode: Rule
+port: 7892
+proxies:
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc6-6624-996d-c63266d31e5a
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国_7
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc6-6624-9fcf-41cf90eb8e3e
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国_8
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-acee-b77e5b003bf6
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国->🏳️_unKnow_未知
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc6-6842-adbc-b8f7da7a2833
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国_9
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-b632-adc8e2d7ab08
+  interface: ''
+  mptcp: false
+  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-b5c9-fadfa08b1a11
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国_10
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-978a-98645722678f
+  interface: ''
+  mptcp: false
+  name: 🇩🇪_DE_德国
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-be9a-fe8fe57dc9be
+  interface: ''
+  mptcp: false
+  name: 🇮🇸_IS_冰岛
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-bb1d-78d0c301bae2
+  interface: ''
+  mptcp: false
+  name: 🇵🇹_PT_葡萄牙
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-b7d7-1331f28696a5
+  interface: ''
+  mptcp: false
+  name: 🇬🇧_GB_英国_1
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+proxy-groups:
+- name: 🚀 全部节点
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+  use:
+  - nodepool-provider
+- name: 🚀 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  tolerance: 50
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🌍 国外媒体
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: 📲 电报信息
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: Ⓜ️ 微软服务
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: 🍎 苹果服务
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: 🍃 应用净化
+  proxies:
+  - REJECT
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - DIRECT
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_9
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_10
+  - 🇩🇪_DE_德国
+  - 🇮🇸_IS_冰岛
+  - 🇵🇹_PT_葡萄牙
+  - 🇬🇧_GB_英国_1
+  type: select
+proxy-providers:
+  nodepool-provider:
+    health-check:
+      enable: true
+      interval: 600
+      lazy: false
+      timeout: 5000
+      url: http://www.gstatic.com/generate_204
+    interval: 10
+    path: _Mergingfile.yaml
+    type: file
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,fd00::/8,DIRECT,no-resolve
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,bilibili,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jd.hk,DIRECT
+- DOMAIN-SUFFIX,360buy.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidubce.com,DIRECT
+- DOMAIN-SUFFIX,baidupcs.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdurl.net,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,weibo.cn,DIRECT
+- DOMAIN-SUFFIX,wbimg.com,DIRECT
+- DOMAIN-SUFFIX,weibocdn.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qpic.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
+- DOMAIN-SUFFIX,weixin.com,DIRECT
+- DOMAIN-SUFFIX,google.com,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.hk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.tw,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.sg,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.de,🌍 国外媒体
+- DOMAIN-SUFFIX,google.fr,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ggpht.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.net,🌍 国外媒体
+- DOMAIN-SUFFIX,fbcdn.net,🌍 国外媒体
+- DOMAIN-SUFFIX,tfbnw.net,🌍 国外媒体
+- DOMAIN-SUFFIX,twitter.com,🌍 国外媒体
+- DOMAIN-SUFFIX,twimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,t.co,🌍 国外媒体
+- DOMAIN-SUFFIX,instagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,cdninstagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,whatsapp.com,📲 电报信息
+- DOMAIN-SUFFIX,whatsapp.net,📲 电报信息
+- DOMAIN-SUFFIX,telegram.org,📲 电报信息
+- DOMAIN-SUFFIX,telegram.me,📲 电报信息
+- DOMAIN-SUFFIX,t.me,📲 电报信息
+- DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+- DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+- DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxext.net,🌍 国外媒体
+- DOMAIN-SUFFIX,netflix.com.edgesuite.net,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.de,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.fr,🌍 国外媒体
+- DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoftstore.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+- DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+- DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+- DOMAIN-SUFFIX,me.com,🍎 苹果服务
+- DOMAIN-SUFFIX,github.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubassets.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab-static.net,🌍 国外媒体
+- DOMAIN-SUFFIX,stackoverflow.com,🌍 国外媒体
+- DOMAIN-SUFFIX,azureedge.net,🌍 国外媒体
+- DOMAIN-SUFFIX,azure.com,🌍 国外媒体
+- DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+- MATCH,🚀 节点选择
+socks-port: 7893

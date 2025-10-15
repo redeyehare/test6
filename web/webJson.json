@@ -1,0 +1,29 @@
+{
+  "servers": [
+    "127.0.0.1:9090",
+    "127.0.0.1:9091"
+  ],
+  "update": "123123123",
+  "groups": [
+    {
+      "type": "clash",
+      "describe": "第cddf67_1组",
+      "url": "#https://firegame.dpdns.org/node/202510/15/cddf67_1.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第cddf67_2组",
+      "url": "#https://firegame.dpdns.org/node/202510/15/cddf67_2.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第cddf67_3组",
+      "url": "#https://firegame.dpdns.org/node/202510/15/cddf67_3.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第0组",
+      "url": "@https://firegame.dpdns.org/node/202510/15/d/0-20251014.yaml"
+    }
+  ]
+}
