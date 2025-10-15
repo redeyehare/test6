@@ -16,51 +16,6 @@ proxies:
   dialer-proxy: ''
   extra: {}
   history: []
-  id: 1f0a9901-fcc5-6281-8a60-8152ad54395e
-  interface: ''
-  mptcp: false
-  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  routing-mark: 0
-  smux: false
-  tfo: false
-  type: Shadowsocks
-  udp: false
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra: {}
-  history: []
-  id: 1f0a9901-fcc5-6281-93af-c31fad3d63c3
-  interface: ''
-  mptcp: false
-  name: 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  routing-mark: 0
-  smux: false
-  tfo: false
-  type: Shadowsocks
-  udp: false
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra: {}
-  history: []
-  id: 1f0a9901-fcc5-6281-9064-538bc27fe187
-  interface: ''
-  mptcp: false
-  name: 🇺🇸_US_美国_11
-  routing-mark: 0
-  smux: false
-  tfo: false
-  type: Shadowsocks
-  udp: false
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra: {}
-  history: []
   id: 1f0a9901-fcc5-6281-b697-901cf62bb9e2
   interface: ''
   mptcp: false
@@ -121,9 +76,6 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -134,9 +86,6 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -145,9 +94,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -158,9 +104,6 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -169,9 +112,6 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -180,9 +120,6 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -191,9 +128,6 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -202,9 +136,6 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -214,9 +145,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -226,9 +154,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2
@@ -237,9 +162,6 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
-  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国_11
   - 🇮🇸_IS_冰岛_1
   - 未知
   - 🇬🇧_GB_英国_2

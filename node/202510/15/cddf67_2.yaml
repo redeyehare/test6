@@ -16,51 +16,6 @@ proxies:
   dialer-proxy: ''
   extra: {}
   history: []
-  id: 1f0a9901-fcc6-6624-996d-c63266d31e5a
-  interface: ''
-  mptcp: false
-  name: 🇺🇸_US_美国_7
-  routing-mark: 0
-  smux: false
-  tfo: false
-  type: Trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra: {}
-  history: []
-  id: 1f0a9901-fcc6-6624-9fcf-41cf90eb8e3e
-  interface: ''
-  mptcp: false
-  name: 🇺🇸_US_美国_8
-  routing-mark: 0
-  smux: false
-  tfo: false
-  type: Trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra: {}
-  history: []
-  id: 1f0a9901-fcc5-6281-acee-b77e5b003bf6
-  interface: ''
-  mptcp: false
-  name: 🇺🇸_US_美国->🏳️_unKnow_未知
-  routing-mark: 0
-  smux: false
-  tfo: false
-  type: Shadowsocks
-  udp: false
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra: {}
-  history: []
   id: 1f0a9901-fcc6-6842-adbc-b8f7da7a2833
   interface: ''
   mptcp: false
@@ -162,13 +117,55 @@ proxies:
   udp: false
   uot: false
   xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-8a60-8152ad54395e
+  interface: ''
+  mptcp: false
+  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-93af-c31fad3d63c3
+  interface: ''
+  mptcp: false
+  name: 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra: {}
+  history: []
+  id: 1f0a9901-fcc5-6281-9064-538bc27fe187
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国_11
+  routing-mark: 0
+  smux: false
+  tfo: false
+  type: Shadowsocks
+  udp: false
+  uot: false
+  xudp: false
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -176,15 +173,15 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -192,13 +189,13 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -206,15 +203,15 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -222,13 +219,13 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -236,13 +233,13 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -250,13 +247,13 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -264,13 +261,13 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -278,14 +275,14 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -293,14 +290,14 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -308,13 +305,13 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_9
   - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
   - 🇺🇸_US_美国_10
@@ -322,6 +319,9 @@ proxy-groups:
   - 🇮🇸_IS_冰岛
   - 🇵🇹_PT_葡萄牙
   - 🇬🇧_GB_英国_1
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇮🇹_IT_意大利->🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_11
   type: select
 proxy-providers:
   nodepool-provider:

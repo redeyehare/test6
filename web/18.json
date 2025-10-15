@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "v2ray",
+      "num": 1,
+      "list": [
+        { "describe": "123", "url": "123" }
+      ]
+    },
+    {
+      "name": "clash",
+      "num": 3,
+      "list": [
+        { "describe": "快速1,10 个节点.", "url": "https://node.openclash.cc/uploads/2025/08/0-20250820.yaml" },
+        { "describe": "快速2,10 个节点.", "url": "https://node.openclash.cc/uploads/2025/08/1-20250820.yaml" },
+        { "describe": "快速3,10 个节点.", "url": "https://node.openclash.cc/uploads/2025/08/2-20250820.yaml" }
+      ]
+    },
+    {
+      "name": "singbox",
+      "num": 2,
+      "list": [
+        { "describe": "123", "url": "123" },
+        { "describe": "123", "url": "123" }
+      ]
+    }
+  ],
+  "WEBConfig": {
+    "ShoppingMall": true,
+    "blacklist":[
+      "4F08FC5A-C8D2-5352-82C7-88BC5FACCF1A"
+    ]
+  }
+}
