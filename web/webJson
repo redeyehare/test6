@@ -1,0 +1,54 @@
+{
+  "servers": [
+    "127.0.0.1:9090",
+    "127.0.0.1:9091"
+  ],
+  "update": "123123123",
+  "groups": [
+    {
+      "type": "clash",
+      "describe": "第8bcb6c_1组",
+      "url": "#https://firegame.dpdns.org/node/202510/18/8bcb6c_1.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第0组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/0-20251017.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第0组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/0-20251018.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第1组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/1-20251017.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第2组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/2-20251017.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第2组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/2-20251018.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第3组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/3-20251017.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第3组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/3-20251018.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第4组",
+      "url": "@https://firegame.dpdns.org/node/202510/18/d/4-20251017.yaml"
+    }
+  ]
+}
