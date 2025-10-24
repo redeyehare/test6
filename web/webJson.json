@@ -1,54 +1,27 @@
 {
+  "verson": "0.1.0",
   "servers": [
     "127.0.0.1:9090",
     "127.0.0.1:9091"
   ],
-  "update": "123123123",
+  "update_url": "123123123",
+  "date": "20251021",
+  "code": "438185",
   "groups": [
     {
       "type": "clash",
-      "describe": "第8bcb6c_1组",
-      "url": "#https://firegame.dpdns.org/node/202510/18/8bcb6c_1.yaml"
+      "describe": "第61ef76_1组",
+      "url": "#https://firegame.dpdns.org/node/202510/24/61ef76_1.yaml"
     },
     {
       "type": "clash",
-      "describe": "第0组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/0-20251017.yaml"
+      "describe": "第61ef76_2组",
+      "url": "#https://firegame.dpdns.org/node/202510/24/61ef76_2.yaml"
     },
     {
       "type": "clash",
-      "describe": "第0组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/0-20251018.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第1组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/1-20251017.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第2组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/2-20251017.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第2组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/2-20251018.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第3组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/3-20251017.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第3组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/3-20251018.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第4组",
-      "url": "@https://firegame.dpdns.org/node/202510/18/d/4-20251017.yaml"
+      "describe": "第clash组",
+      "url": "@https://firegame.dpdns.org/node/202510/24/d/clash-20251023.yaml"
     }
   ]
 }

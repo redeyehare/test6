@@ -1,0 +1,379 @@
+allow-lan: true
+dns:
+  enable: true
+  fallback:
+  - https://dns.pub/dns-query
+  - https://doh.pub/dns-query
+  nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+external-controller: 127.0.0.1:9090
+log-level: debug
+mode: Rule
+port: 7892
+proxies:
+- alive: true
+  dialer-proxy: ''
+  extra:
+    https://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 178
+        time: '2025-10-20T22:59:22.1477148+08:00'
+  history:
+  - delay: 178
+    time: '2025-10-20T22:59:22.1477148+08:00'
+  id: 1f0adc53-f2da-6d7e-b256-4052de8cc12a
+  interface: ''
+  mptcp: false
+  name: DIRECT
+  routing-mark: 0
+  smux: false
+  type: direct
+  udp: true
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    https://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1187
+        time: '2025-10-20T22:59:23.1562567+08:00'
+  history:
+  - delay: 1187
+    time: '2025-10-20T22:59:23.1562567+08:00'
+  id: 1f0adc53-f2da-6d7e-8984-4ec558a2e1b4
+  interface: ''
+  mptcp: false
+  name: FR法国(mibei77.com 米贝节点分享)
+  routing-mark: 0
+  smux: false
+  type: vmess
+  udp: true
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    https://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1147
+        time: '2025-10-20T22:59:23.1163873+08:00'
+  history:
+  - delay: 1147
+    time: '2025-10-20T22:59:23.1163873+08:00'
+  id: 1f0adc53-f2da-6d7e-af74-ecf9dc10ce20
+  interface: ''
+  mptcp: false
+  name: FR法国(mibei77.com 米贝节点分享) 2
+  routing-mark: 0
+  smux: false
+  type: vmess
+  udp: true
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    https://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1195
+        time: '2025-10-20T22:59:23.1651817+08:00'
+  history:
+  - delay: 1195
+    time: '2025-10-20T22:59:23.1651817+08:00'
+  id: 1f0adc53-f2da-6d7e-bfe8-802237642d20
+  interface: ''
+  mptcp: false
+  name: FR法国(mibei77.com 米贝节点分享) 3
+  routing-mark: 0
+  smux: false
+  type: vmess
+  udp: true
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    https://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 802
+        time: '2025-10-20T22:59:36.2126366+08:00'
+  history:
+  - delay: 802
+    time: '2025-10-20T22:59:36.2126366+08:00'
+  id: 1f0adc53-f2dc-6360-871e-974767cb8bc8
+  interface: ''
+  mptcp: false
+  name: 美国_30
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    https://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1206
+        time: '2025-10-20T22:59:37.7135555+08:00'
+  history:
+  - delay: 1206
+    time: '2025-10-20T22:59:37.7135555+08:00'
+  id: 1f0adc53-f2dc-6360-acda-24f7baf765fe
+  interface: ''
+  mptcp: false
+  name: 美国_35
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+proxy-groups:
+- name: 🚀 全部节点
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+  use:
+  - nodepool-provider
+- name: 🚀 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  tolerance: 50
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🌍 国外媒体
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: 📲 电报信息
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: Ⓜ️ 微软服务
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: 🍎 苹果服务
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: 🍃 应用净化
+  proxies:
+  - REJECT
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - DIRECT
+  - DIRECT
+  - FR法国(mibei77.com 米贝节点分享)
+  - FR法国(mibei77.com 米贝节点分享) 2
+  - FR法国(mibei77.com 米贝节点分享) 3
+  - 美国_30
+  - 美国_35
+  type: select
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,fd00::/8,DIRECT,no-resolve
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,bilibili,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jd.hk,DIRECT
+- DOMAIN-SUFFIX,360buy.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidubce.com,DIRECT
+- DOMAIN-SUFFIX,baidupcs.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdurl.net,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,weibo.cn,DIRECT
+- DOMAIN-SUFFIX,wbimg.com,DIRECT
+- DOMAIN-SUFFIX,weibocdn.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qpic.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
+- DOMAIN-SUFFIX,weixin.com,DIRECT
+- DOMAIN-SUFFIX,google.com,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.hk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.tw,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.sg,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.de,🌍 国外媒体
+- DOMAIN-SUFFIX,google.fr,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ggpht.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.net,🌍 国外媒体
+- DOMAIN-SUFFIX,fbcdn.net,🌍 国外媒体
+- DOMAIN-SUFFIX,tfbnw.net,🌍 国外媒体
+- DOMAIN-SUFFIX,twitter.com,🌍 国外媒体
+- DOMAIN-SUFFIX,twimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,t.co,🌍 国外媒体
+- DOMAIN-SUFFIX,instagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,cdninstagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,whatsapp.com,📲 电报信息
+- DOMAIN-SUFFIX,whatsapp.net,📲 电报信息
+- DOMAIN-SUFFIX,telegram.org,📲 电报信息
+- DOMAIN-SUFFIX,telegram.me,📲 电报信息
+- DOMAIN-SUFFIX,t.me,📲 电报信息
+- DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+- DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+- DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxext.net,🌍 国外媒体
+- DOMAIN-SUFFIX,netflix.com.edgesuite.net,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.de,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.fr,🌍 国外媒体
+- DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoftstore.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+- DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+- DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+- DOMAIN-SUFFIX,me.com,🍎 苹果服务
+- DOMAIN-SUFFIX,github.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubassets.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab-static.net,🌍 国外媒体
+- DOMAIN-SUFFIX,stackoverflow.com,🌍 国外媒体
+- DOMAIN-SUFFIX,azureedge.net,🌍 国外媒体
+- DOMAIN-SUFFIX,azure.com,🌍 国外媒体
+- DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+- MATCH,🚀 节点选择
+socks-port: 7893
