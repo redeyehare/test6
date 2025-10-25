@@ -10,18 +10,18 @@
   "groups": [
     {
       "type": "clash",
-      "describe": "第61ef76_1组",
-      "url": "#https://firegame.dpdns.org/node/202510/24/61ef76_1.yaml"
+      "describe": "第0d0745_1组",
+      "url": "#https://firegame.dpdns.org/node/202510/25/0d0745_1.yaml"
     },
     {
       "type": "clash",
-      "describe": "第61ef76_2组",
-      "url": "#https://firegame.dpdns.org/node/202510/24/61ef76_2.yaml"
+      "describe": "第0d0745_2组",
+      "url": "#https://firegame.dpdns.org/node/202510/25/0d0745_2.yaml"
     },
     {
       "type": "clash",
       "describe": "第clash组",
-      "url": "@https://firegame.dpdns.org/node/202510/24/d/clash-20251023.yaml"
+      "url": "@https://firegame.dpdns.org/node/202510/25/d/clash-20251023.yaml"
     }
   ]
 }

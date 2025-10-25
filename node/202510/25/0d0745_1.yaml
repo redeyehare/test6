@@ -1,0 +1,767 @@
+allow-lan: true
+dns:
+  enable: true
+  fallback:
+  - https://dns.pub/dns-query
+  - https://doh.pub/dns-query
+  nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+external-controller: 127.0.0.1:9090
+log-level: debug
+mode: Rule
+port: 7892
+proxies:
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 853
+        time: '2025-10-25T09:26:13.9291794+08:00'
+      - delay: 1868
+        time: '2025-10-25T09:26:34.9448101+08:00'
+      - delay: 851
+        time: '2025-10-25T09:26:53.9264234+08:00'
+      - delay: 833
+        time: '2025-10-25T09:27:13.9099075+08:00'
+      - delay: 886
+        time: '2025-10-25T09:27:33.9630324+08:00'
+      - delay: 1167
+        time: '2025-10-25T09:27:44.2428006+08:00'
+    https://ipv6.google.com/generate_204:
+      alive: true
+      history:
+      - delay: 1157
+        time: '2025-10-25T09:26:22.0951216+08:00'
+  history:
+  - delay: 853
+    time: '2025-10-25T09:26:13.9291794+08:00'
+  - delay: 1157
+    time: '2025-10-25T09:26:22.0951216+08:00'
+  - delay: 1868
+    time: '2025-10-25T09:26:34.9448101+08:00'
+  - delay: 851
+    time: '2025-10-25T09:26:53.9264234+08:00'
+  - delay: 833
+    time: '2025-10-25T09:27:13.9099075+08:00'
+  - delay: 886
+    time: '2025-10-25T09:27:33.9630324+08:00'
+  - delay: 1167
+    time: '2025-10-25T09:27:44.2428006+08:00'
+  id: 1f0b1419-8124-6c63-a220-a78dd78c0345
+  interface: ''
+  mptcp: false
+  name: 法国_1
+  routing-mark: 0
+  smux: false
+  type: vmess
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 4074
+        time: '2025-10-25T09:26:17.1499406+08:00'
+      - delay: 2309
+        time: '2025-10-25T09:26:35.3857586+08:00'
+      - delay: 2252
+        time: '2025-10-25T09:26:55.3268766+08:00'
+      - delay: 278
+        time: '2025-10-25T09:27:13.3546397+08:00'
+      - delay: 302
+        time: '2025-10-25T09:27:33.3767591+08:00'
+      - delay: 1703
+        time: '2025-10-25T09:27:44.7775558+08:00'
+    https://ipv6.google.com/generate_204:
+      alive: false
+      history:
+      - delay: 0
+        time: '2025-10-25T09:26:25.0766831+08:00'
+    https://www.gstatic.com/generate_204:
+      alive: false
+      history:
+      - delay: 0
+        time: '2025-10-25T09:26:26.5876532+08:00'
+  history:
+  - delay: 4074
+    time: '2025-10-25T09:26:17.1499406+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:25.0766831+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:26.5876532+08:00'
+  - delay: 2309
+    time: '2025-10-25T09:26:35.3857586+08:00'
+  - delay: 2252
+    time: '2025-10-25T09:26:55.3268766+08:00'
+  - delay: 278
+    time: '2025-10-25T09:27:13.3546397+08:00'
+  - delay: 302
+    time: '2025-10-25T09:27:33.3767591+08:00'
+  - delay: 1703
+    time: '2025-10-25T09:27:44.7775558+08:00'
+  id: 1f0b1419-8124-6c63-b9eb-fe84200f2bd9
+  interface: ''
+  mptcp: false
+  name: 日本_2
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1663
+        time: '2025-10-25T09:26:14.7389276+08:00'
+      - delay: 4861
+        time: '2025-10-25T09:26:37.937482+08:00'
+      - delay: 0
+        time: '2025-10-25T09:26:58.0746994+08:00'
+      - delay: 1033
+        time: '2025-10-25T09:27:14.1092093+08:00'
+      - delay: 3146
+        time: '2025-10-25T09:27:36.2220789+08:00'
+      - delay: 3702
+        time: '2025-10-25T09:27:46.7776493+08:00'
+  history:
+  - delay: 1663
+    time: '2025-10-25T09:26:14.7389276+08:00'
+  - delay: 4861
+    time: '2025-10-25T09:26:37.937482+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:58.0746994+08:00'
+  - delay: 1033
+    time: '2025-10-25T09:27:14.1092093+08:00'
+  - delay: 3146
+    time: '2025-10-25T09:27:36.2220789+08:00'
+  - delay: 3702
+    time: '2025-10-25T09:27:46.7776493+08:00'
+  id: 1f0b1419-8124-6c63-8eab-4a7b0ff9e106
+  interface: ''
+  mptcp: false
+  name: 日本_3
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 2821
+        time: '2025-10-25T09:26:16.0908873+08:00'
+      - delay: 3856
+        time: '2025-10-25T09:26:37.3063318+08:00'
+      - delay: 0
+        time: '2025-10-25T09:26:58.9268258+08:00'
+      - delay: 0
+        time: '2025-10-25T09:27:18.355486+08:00'
+      - delay: 2339
+        time: '2025-10-25T09:27:35.465946+08:00'
+      - delay: 3945
+        time: '2025-10-25T09:27:47.096506+08:00'
+  history:
+  - delay: 2821
+    time: '2025-10-25T09:26:16.0908873+08:00'
+  - delay: 3856
+    time: '2025-10-25T09:26:37.3063318+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:58.9268258+08:00'
+  - delay: 0
+    time: '2025-10-25T09:27:18.355486+08:00'
+  - delay: 2339
+    time: '2025-10-25T09:27:35.465946+08:00'
+  - delay: 3945
+    time: '2025-10-25T09:27:47.096506+08:00'
+  id: 1f0b1419-8124-6c63-8568-13be605d2a72
+  interface: ''
+  mptcp: false
+  name: 美国_8
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 165
+        time: '2025-10-25T09:26:13.6193433+08:00'
+      - delay: 159
+        time: '2025-10-25T09:26:34.4886298+08:00'
+      - delay: 532
+        time: '2025-10-25T09:26:55.860166+08:00'
+      - delay: 154
+        time: '2025-10-25T09:27:13.5662708+08:00'
+      - delay: 161
+        time: '2025-10-25T09:27:33.5385034+08:00'
+      - delay: 199
+        time: '2025-10-25T09:27:43.7215769+08:00'
+    https://ipv6.google.com/generate_204:
+      alive: true
+      history:
+      - delay: 1464
+        time: '2025-10-25T09:26:27.7074814+08:00'
+    https://www.gstatic.com/generate_204:
+      alive: false
+      history:
+      - delay: 0
+        time: '2025-10-25T09:26:29.2149832+08:00'
+  history:
+  - delay: 165
+    time: '2025-10-25T09:26:13.6193433+08:00'
+  - delay: 1464
+    time: '2025-10-25T09:26:27.7074814+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:29.2149832+08:00'
+  - delay: 159
+    time: '2025-10-25T09:26:34.4886298+08:00'
+  - delay: 532
+    time: '2025-10-25T09:26:55.860166+08:00'
+  - delay: 154
+    time: '2025-10-25T09:27:13.5662708+08:00'
+  - delay: 161
+    time: '2025-10-25T09:27:33.5385034+08:00'
+  - delay: 199
+    time: '2025-10-25T09:27:43.7215769+08:00'
+  id: 1f0b1419-8124-6c63-ab47-89f7e5238ed9
+  interface: ''
+  mptcp: false
+  name: 美国_9
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 439
+        time: '2025-10-25T09:26:14.0590334+08:00'
+      - delay: 400
+        time: '2025-10-25T09:26:34.889786+08:00'
+      - delay: 354
+        time: '2025-10-25T09:26:56.2154136+08:00'
+      - delay: 3410
+        time: '2025-10-25T09:27:16.9778227+08:00'
+      - delay: 344
+        time: '2025-10-25T09:27:33.8545921+08:00'
+      - delay: 380
+        time: '2025-10-25T09:27:44.1026049+08:00'
+  history:
+  - delay: 439
+    time: '2025-10-25T09:26:14.0590334+08:00'
+  - delay: 400
+    time: '2025-10-25T09:26:34.889786+08:00'
+  - delay: 354
+    time: '2025-10-25T09:26:56.2154136+08:00'
+  - delay: 3410
+    time: '2025-10-25T09:27:16.9778227+08:00'
+  - delay: 344
+    time: '2025-10-25T09:27:33.8545921+08:00'
+  - delay: 380
+    time: '2025-10-25T09:27:44.1026049+08:00'
+  id: 1f0b1419-8124-6c63-9946-9e09069005b8
+  interface: ''
+  mptcp: false
+  name: 美国_10
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 161
+        time: '2025-10-25T09:26:14.0905553+08:00'
+      - delay: 154
+        time: '2025-10-25T09:26:35.0450388+08:00'
+      - delay: 185
+        time: '2025-10-25T09:26:56.4004448+08:00'
+      - delay: 165
+        time: '2025-10-25T09:27:13.8582795+08:00'
+      - delay: 156
+        time: '2025-10-25T09:27:33.6953006+08:00'
+      - delay: 657
+        time: '2025-10-25T09:27:44.7601134+08:00'
+  history:
+  - delay: 161
+    time: '2025-10-25T09:26:14.0905553+08:00'
+  - delay: 154
+    time: '2025-10-25T09:26:35.0450388+08:00'
+  - delay: 185
+    time: '2025-10-25T09:26:56.4004448+08:00'
+  - delay: 165
+    time: '2025-10-25T09:27:13.8582795+08:00'
+  - delay: 156
+    time: '2025-10-25T09:27:33.6953006+08:00'
+  - delay: 657
+    time: '2025-10-25T09:27:44.7601134+08:00'
+  id: 1f0b1419-8124-6c63-9f00-6dbbb4636a49
+  interface: ''
+  mptcp: false
+  name: 香港_1
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 2180
+        time: '2025-10-25T09:26:16.2403579+08:00'
+      - delay: 208
+        time: '2025-10-25T09:26:35.154422+08:00'
+      - delay: 4992
+        time: '2025-10-25T09:27:01.3928018+08:00'
+      - delay: 433
+        time: '2025-10-25T09:27:14.2917661+08:00'
+      - delay: 196
+        time: '2025-10-25T09:27:33.7816699+08:00'
+      - delay: 382
+        time: '2025-10-25T09:27:44.6261157+08:00'
+    https://www.gstatic.com/generate_204:
+      alive: false
+      history:
+      - delay: 0
+        time: '2025-10-25T09:26:30.4708026+08:00'
+  history:
+  - delay: 2180
+    time: '2025-10-25T09:26:16.2403579+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:30.4708026+08:00'
+  - delay: 208
+    time: '2025-10-25T09:26:35.154422+08:00'
+  - delay: 4992
+    time: '2025-10-25T09:27:01.3928018+08:00'
+  - delay: 433
+    time: '2025-10-25T09:27:14.2917661+08:00'
+  - delay: 196
+    time: '2025-10-25T09:27:33.7816699+08:00'
+  - delay: 382
+    time: '2025-10-25T09:27:44.6261157+08:00'
+  id: 1f0b1419-8124-6c63-97d7-b529e4e96e2e
+  interface: ''
+  mptcp: false
+  name: 日本_6
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 733
+        time: '2025-10-25T09:26:15.0695022+08:00'
+      - delay: 863
+        time: '2025-10-25T09:26:36.0176196+08:00'
+      - delay: 1109
+        time: '2025-10-25T09:26:59.1845859+08:00'
+      - delay: 752
+        time: '2025-10-25T09:27:14.8619481+08:00'
+      - delay: 873
+        time: '2025-10-25T09:27:34.6548149+08:00'
+      - delay: 993
+        time: '2025-10-25T09:27:45.7546439+08:00'
+  history:
+  - delay: 733
+    time: '2025-10-25T09:26:15.0695022+08:00'
+  - delay: 863
+    time: '2025-10-25T09:26:36.0176196+08:00'
+  - delay: 1109
+    time: '2025-10-25T09:26:59.1845859+08:00'
+  - delay: 752
+    time: '2025-10-25T09:27:14.8619481+08:00'
+  - delay: 873
+    time: '2025-10-25T09:27:34.6548149+08:00'
+  - delay: 993
+    time: '2025-10-25T09:27:45.7546439+08:00'
+  id: 1f0b1419-8126-600e-8bdd-4f1400936da0
+  interface: ''
+  mptcp: false
+  name: 香港_3
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 0
+        time: '2025-10-25T09:26:20.0697833+08:00'
+      - delay: 2873
+        time: '2025-10-25T09:26:38.6630007+08:00'
+      - delay: 0
+        time: '2025-10-25T09:27:03.0747073+08:00'
+      - delay: 0
+        time: '2025-10-25T09:27:19.8623639+08:00'
+      - delay: 0
+        time: '2025-10-25T09:27:38.9636426+08:00'
+      - delay: 4940
+        time: '2025-10-25T09:27:50.6949106+08:00'
+    https://ipv6.google.com/generate_204:
+      alive: false
+      history:
+      - delay: 0
+        time: '2025-10-25T09:26:31.2289774+08:00'
+  history:
+  - delay: 0
+    time: '2025-10-25T09:26:20.0697833+08:00'
+  - delay: 0
+    time: '2025-10-25T09:26:31.2289774+08:00'
+  - delay: 2873
+    time: '2025-10-25T09:26:38.6630007+08:00'
+  - delay: 0
+    time: '2025-10-25T09:27:03.0747073+08:00'
+  - delay: 0
+    time: '2025-10-25T09:27:19.8623639+08:00'
+  - delay: 0
+    time: '2025-10-25T09:27:38.9636426+08:00'
+  - delay: 4940
+    time: '2025-10-25T09:27:50.6949106+08:00'
+  id: 1f0b1419-8126-600e-95e2-c9ef5d9f61a2
+  interface: ''
+  mptcp: false
+  name: 英国
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+proxy-groups:
+- name: 🚀 全部节点
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+  use:
+  - nodepool-provider
+- name: 🚀 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  tolerance: 50
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🌍 国外媒体
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: 📲 电报信息
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: Ⓜ️ 微软服务
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: 🍎 苹果服务
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: 🍃 应用净化
+  proxies:
+  - REJECT
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - DIRECT
+  - 法国_1
+  - 日本_2
+  - 日本_3
+  - 美国_8
+  - 美国_9
+  - 美国_10
+  - 香港_1
+  - 日本_6
+  - 香港_3
+  - 英国
+  type: select
+proxy-providers:
+  nodepool-provider:
+    health-check:
+      enable: true
+      interval: 10
+      lazy: false
+      timeout: 5000
+      url: http://www.gstatic.com/generate_204
+    interval: 10
+    path: ./download_nodes/_Mergingfile.yaml
+    type: file
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,fd00::/8,DIRECT,no-resolve
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,bilibili,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jd.hk,DIRECT
+- DOMAIN-SUFFIX,360buy.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidubce.com,DIRECT
+- DOMAIN-SUFFIX,baidupcs.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdurl.net,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,weibo.cn,DIRECT
+- DOMAIN-SUFFIX,wbimg.com,DIRECT
+- DOMAIN-SUFFIX,weibocdn.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qpic.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
+- DOMAIN-SUFFIX,weixin.com,DIRECT
+- DOMAIN-SUFFIX,google.com,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.hk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.tw,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.sg,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.de,🌍 国外媒体
+- DOMAIN-SUFFIX,google.fr,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ggpht.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.net,🌍 国外媒体
+- DOMAIN-SUFFIX,fbcdn.net,🌍 国外媒体
+- DOMAIN-SUFFIX,tfbnw.net,🌍 国外媒体
+- DOMAIN-SUFFIX,twitter.com,🌍 国外媒体
+- DOMAIN-SUFFIX,twimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,t.co,🌍 国外媒体
+- DOMAIN-SUFFIX,instagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,cdninstagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,whatsapp.com,📲 电报信息
+- DOMAIN-SUFFIX,whatsapp.net,📲 电报信息
+- DOMAIN-SUFFIX,telegram.org,📲 电报信息
+- DOMAIN-SUFFIX,telegram.me,📲 电报信息
+- DOMAIN-SUFFIX,t.me,📲 电报信息
+- DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+- DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+- DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxext.net,🌍 国外媒体
+- DOMAIN-SUFFIX,netflix.com.edgesuite.net,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.de,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.fr,🌍 国外媒体
+- DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoftstore.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+- DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+- DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+- DOMAIN-SUFFIX,me.com,🍎 苹果服务
+- DOMAIN-SUFFIX,github.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubassets.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab-static.net,🌍 国外媒体
+- DOMAIN-SUFFIX,stackoverflow.com,🌍 国外媒体
+- DOMAIN-SUFFIX,azureedge.net,🌍 国外媒体
+- DOMAIN-SUFFIX,azure.com,🌍 国外媒体
+- DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+- MATCH,🚀 节点选择
+socks-port: 7893
