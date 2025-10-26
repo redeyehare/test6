@@ -1,12 +1,12 @@
 {
   "verson": "0.1.0",
   "servers": [
-    "127.0.0.1:9090",
+    "https://nodeserer.redeyehare.workers.dev/",
     "127.0.0.1:9091"
   ],
   "update_url": "123123123",
-  "date": "20251021",
-  "code": "438185",
+  "date": "20251025",
+  "code": "494979",
   "groups": [
     {
       "type": "clash",
@@ -17,6 +17,21 @@
       "type": "clash",
       "describe": "第0d0745_2组",
       "url": "#https://firegame.dpdns.org/node/202510/25/0d0745_2.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第1组",
+      "url": "@https://firegame.dpdns.org/node/202510/25/d/1-20251025.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第2组",
+      "url": "@https://firegame.dpdns.org/node/202510/25/d/2-20251025.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第3组",
+      "url": "@https://firegame.dpdns.org/node/202510/25/d/3-20251025.yaml"
     },
     {
       "type": "clash",
