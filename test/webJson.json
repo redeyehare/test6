@@ -1,0 +1,34 @@
+{
+  "verson": "0.1.0",
+  "servers": [
+    "https://nodeserer.redeyehare.workers.dev/server01",
+    "127.0.0.1:9091"
+  ],
+  "update_url": "http://192.168.1.8:8080/hot",
+  "Entry_Scene":"Entry",
+  "date": "20251103",
+  "time": "21:04:07",
+  "code": "643660",
+  "groups": [
+    {
+      "type": "clash",
+      "describe": "第29c9bf_1组",
+      "url": "#https://firegame.dpdns.org/node/202511/03/29c9bf_1.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第2组",
+      "url": "@https://firegame.dpdns.org/node/202511/03/d/2-20251103.yaml"
+    }
+  ],
+  "shops": [
+    {
+      "id": "001",
+      "name": "01",
+      "duration": "111111",
+      "price": "10",
+      "msg": "111111",
+      "PayChannel": "weiixn"
+    }
+  ]
+}
