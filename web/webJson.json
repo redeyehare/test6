@@ -4,7 +4,8 @@
     "https://nodeserer.redeyehare.workers.dev/server01",
     "127.0.0.1:9091"
   ],
-  "update_url": "123123123",
+  "update_url": "http://192.168.1.8:8080/hot",
+  "Entry_Scene":"Entry",
   "date": "20251103",
   "time": "21:04:07",
   "code": "643660",
