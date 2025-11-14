@@ -20,9 +20,21 @@ proxies:
       history:
       - delay: 905
         time: '2025-11-14T14:43:54.8306571+08:00'
+      - delay: 978
+        time: '2025-11-14T14:44:24.8159694+08:00'
+      - delay: 893
+        time: '2025-11-14T14:44:54.9870452+08:00'
+      - delay: 895
+        time: '2025-11-14T14:45:24.3263786+08:00'
   history:
   - delay: 905
     time: '2025-11-14T14:43:54.8306571+08:00'
+  - delay: 978
+    time: '2025-11-14T14:44:24.8159694+08:00'
+  - delay: 893
+    time: '2025-11-14T14:44:54.9870452+08:00'
+  - delay: 895
+    time: '2025-11-14T14:45:24.3263786+08:00'
   id: 1f0c1254-f782-61cb-b8ec-7d9880447a4b
   interface: ''
   mptcp: false
@@ -38,11 +50,47 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
+      - delay: 0
+        time: '2025-11-14T14:44:02.1506656+08:00'
+      - delay: 0
+        time: '2025-11-14T14:44:32.9113695+08:00'
+      - delay: 944
+        time: '2025-11-14T14:44:58.4244191+08:00'
+  history:
+  - delay: 0
+    time: '2025-11-14T14:44:02.1506656+08:00'
+  - delay: 0
+    time: '2025-11-14T14:44:32.9113695+08:00'
+  - delay: 944
+    time: '2025-11-14T14:44:58.4244191+08:00'
+  id: 1f0c1254-f782-61cb-8a9e-de3fbce36deb
+  interface: ''
+  mptcp: false
+  name: RU俄罗斯(mibei77.com 米贝节点分享) 3
+  routing-mark: 0
+  smux: false
+  type: ss
+  uot: false
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
       - delay: 2903
         time: '2025-11-14T14:44:02.7352275+08:00'
+      - delay: 3544
+        time: '2025-11-14T14:44:33.3608936+08:00'
+      - delay: 4464
+        time: '2025-11-14T14:45:03.7388377+08:00'
   history:
   - delay: 2903
     time: '2025-11-14T14:44:02.7352275+08:00'
+  - delay: 3544
+    time: '2025-11-14T14:44:33.3608936+08:00'
+  - delay: 4464
+    time: '2025-11-14T14:45:03.7388377+08:00'
   id: 1f0c1254-f782-61cb-998e-7ecccd7f2562
   interface: ''
   mptcp: false
@@ -61,9 +109,17 @@ proxies:
       history:
       - delay: 1379
         time: '2025-11-14T14:44:02.0939194+08:00'
+      - delay: 450
+        time: '2025-11-14T14:44:31.1861394+08:00'
+      - delay: 2995
+        time: '2025-11-14T14:45:02.9523405+08:00'
   history:
   - delay: 1379
     time: '2025-11-14T14:44:02.0939194+08:00'
+  - delay: 450
+    time: '2025-11-14T14:44:31.1861394+08:00'
+  - delay: 2995
+    time: '2025-11-14T14:45:02.9523405+08:00'
   id: 1f0c1254-f782-61cb-a34f-83ba7f3006a0
   interface: ''
   mptcp: false
@@ -82,9 +138,17 @@ proxies:
       history:
       - delay: 1678
         time: '2025-11-14T14:44:03.9635582+08:00'
+      - delay: 2736
+        time: '2025-11-14T14:44:35.4066071+08:00'
+      - delay: 296
+        time: '2025-11-14T14:45:02.7313162+08:00'
   history:
   - delay: 1678
     time: '2025-11-14T14:44:03.9635582+08:00'
+  - delay: 2736
+    time: '2025-11-14T14:44:35.4066071+08:00'
+  - delay: 296
+    time: '2025-11-14T14:45:02.7313162+08:00'
   id: 1f0c1254-f783-6727-bed7-5f45f8b4a3ad
   interface: ''
   mptcp: false
@@ -103,9 +167,17 @@ proxies:
       history:
       - delay: 628
         time: '2025-11-14T14:44:07.0543734+08:00'
+      - delay: 1864
+        time: '2025-11-14T14:44:38.5183244+08:00'
+      - delay: 285
+        time: '2025-11-14T14:45:06.3828406+08:00'
   history:
   - delay: 628
     time: '2025-11-14T14:44:07.0543734+08:00'
+  - delay: 1864
+    time: '2025-11-14T14:44:38.5183244+08:00'
+  - delay: 285
+    time: '2025-11-14T14:45:06.3828406+08:00'
   id: 1f0c1254-f783-6727-bb1f-285b567e4f5e
   interface: ''
   mptcp: false
@@ -124,9 +196,17 @@ proxies:
       history:
       - delay: 605
         time: '2025-11-14T14:44:07.2131019+08:00'
+      - delay: 602
+        time: '2025-11-14T14:44:37.3025032+08:00'
+      - delay: 644
+        time: '2025-11-14T14:45:07.0269134+08:00'
   history:
   - delay: 605
     time: '2025-11-14T14:44:07.2131019+08:00'
+  - delay: 602
+    time: '2025-11-14T14:44:37.3025032+08:00'
+  - delay: 644
+    time: '2025-11-14T14:45:07.0269134+08:00'
   id: 1f0c1254-f783-6727-a4a2-5cd75ee4becf
   interface: ''
   mptcp: false
@@ -145,9 +225,17 @@ proxies:
       history:
       - delay: 697
         time: '2025-11-14T14:44:07.9103323+08:00'
+      - delay: 2009
+        time: '2025-11-14T14:44:39.9219285+08:00'
+      - delay: 2280
+        time: '2025-11-14T14:45:09.7132281+08:00'
   history:
   - delay: 697
     time: '2025-11-14T14:44:07.9103323+08:00'
+  - delay: 2009
+    time: '2025-11-14T14:44:39.9219285+08:00'
+  - delay: 2280
+    time: '2025-11-14T14:45:09.7132281+08:00'
   id: 1f0c1254-f783-6727-a14f-30f4309ee6cb
   interface: ''
   mptcp: false
@@ -163,6 +251,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -176,6 +265,7 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -187,6 +277,7 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -200,6 +291,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -211,6 +303,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -222,6 +315,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -233,6 +327,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -244,6 +339,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -256,6 +352,7 @@ proxy-groups:
   - REJECT
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -268,6 +365,7 @@ proxy-groups:
   - REJECT
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
@@ -279,6 +377,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - US美国(mibei77.com 米贝节点分享) 8
+  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇸🇬 新加坡3|@stairnode
