@@ -18,85 +18,273 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1310
-        time: '2025-11-14T13:50:36.6924542+08:00'
-      - delay: 906
-        time: '2025-11-14T13:51:17.0356922+08:00'
+      - delay: 905
+        time: '2025-11-14T14:43:54.8306571+08:00'
   history:
-  - delay: 1310
-    time: '2025-11-14T13:50:36.6924542+08:00'
-  - delay: 906
-    time: '2025-11-14T13:51:17.0356922+08:00'
-  id: 1f0c11dd-1c7d-61ba-87cf-bd7be3895340
+  - delay: 905
+    time: '2025-11-14T14:43:54.8306571+08:00'
+  id: 1f0c1254-f782-61cb-b8ec-7d9880447a4b
   interface: ''
   mptcp: false
-  name: 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  name: US美国(mibei77.com 米贝节点分享) 8
   routing-mark: 0
   smux: false
   type: ss
   uot: false
   xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 2903
+        time: '2025-11-14T14:44:02.7352275+08:00'
+  history:
+  - delay: 2903
+    time: '2025-11-14T14:44:02.7352275+08:00'
+  id: 1f0c1254-f782-61cb-998e-7ecccd7f2562
+  interface: ''
+  mptcp: false
+  name: 🇭🇰 香港3|@stairnode
+  routing-mark: 0
+  smux: false
+  type: trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1379
+        time: '2025-11-14T14:44:02.0939194+08:00'
+  history:
+  - delay: 1379
+    time: '2025-11-14T14:44:02.0939194+08:00'
+  id: 1f0c1254-f782-61cb-a34f-83ba7f3006a0
+  interface: ''
+  mptcp: false
+  name: 🇭🇰 香港4|@stairnode
+  routing-mark: 0
+  smux: false
+  type: trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1678
+        time: '2025-11-14T14:44:03.9635582+08:00'
+  history:
+  - delay: 1678
+    time: '2025-11-14T14:44:03.9635582+08:00'
+  id: 1f0c1254-f783-6727-bed7-5f45f8b4a3ad
+  interface: ''
+  mptcp: false
+  name: 🇸🇬 新加坡3|@stairnode
+  routing-mark: 0
+  smux: false
+  type: trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 628
+        time: '2025-11-14T14:44:07.0543734+08:00'
+  history:
+  - delay: 628
+    time: '2025-11-14T14:44:07.0543734+08:00'
+  id: 1f0c1254-f783-6727-bb1f-285b567e4f5e
+  interface: ''
+  mptcp: false
+  name: 🇯🇵 日本4|@stairnode_1
+  routing-mark: 0
+  smux: false
+  type: vmess
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 605
+        time: '2025-11-14T14:44:07.2131019+08:00'
+  history:
+  - delay: 605
+    time: '2025-11-14T14:44:07.2131019+08:00'
+  id: 1f0c1254-f783-6727-a4a2-5cd75ee4becf
+  interface: ''
+  mptcp: false
+  name: 🇰🇷 韩国|@stairnode
+  routing-mark: 0
+  smux: false
+  type: vmess
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 697
+        time: '2025-11-14T14:44:07.9103323+08:00'
+  history:
+  - delay: 697
+    time: '2025-11-14T14:44:07.9103323+08:00'
+  id: 1f0c1254-f783-6727-a14f-30f4309ee6cb
+  interface: ''
+  mptcp: false
+  name: 🇺🇸 美国3|@stairnode_1
+  routing-mark: 0
+  smux: false
+  type: trojan
+  udp: false
+  uot: true
+  xudp: false
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 俄罗斯(yudou6677.top 玉豆免费节点)_3
+  - US美国(mibei77.com 米贝节点分享) 8
+  - 🇭🇰 香港3|@stairnode
+  - 🇭🇰 香港4|@stairnode
+  - 🇸🇬 新加坡3|@stairnode
+  - 🇯🇵 日本4|@stairnode_1
+  - 🇰🇷 韩国|@stairnode
+  - 🇺🇸 美国3|@stairnode_1
   type: select
 proxy-providers:
   nodepool-provider:
