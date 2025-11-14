@@ -12,31 +12,13 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 1470
-        time: '2025-11-14T16:05:20.195945+08:00'
-      - delay: 661
-        time: '2025-11-14T16:05:50.6059953+08:00'
-  history:
-  - delay: 1470
-    time: '2025-11-14T16:05:20.195945+08:00'
-  - delay: 661
-    time: '2025-11-14T16:05:50.6059953+08:00'
-  id: 1f0c130a-8943-6b99-a963-f8abbcf825f2
-  interface: ''
-  mptcp: false
-  name: 🇺🇸 美国3|@stairnode_1
-  routing-mark: 0
-  smux: false
+- name: 🇺🇸 美国3|@stairnode_1
+  password: BxceQaOe
+  port: 4094
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
-  udp: false
-  uot: true
-  xudp: false
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
