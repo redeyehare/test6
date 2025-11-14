@@ -18,16 +18,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 991
-        time: '2025-11-14T13:50:11.6215482+08:00'
-      - delay: 927
-        time: '2025-11-14T13:50:51.5515915+08:00'
+      - delay: 1859
+        time: '2025-11-14T14:19:48.7568493+08:00'
   history:
-  - delay: 991
-    time: '2025-11-14T13:50:11.6215482+08:00'
-  - delay: 927
-    time: '2025-11-14T13:50:51.5515915+08:00'
-  id: 1f0c11dd-1c79-661d-9e7d-82db5356f3a3
+  - delay: 1859
+    time: '2025-11-14T14:19:48.7568493+08:00'
+  id: 1f0c121e-cbd8-656e-b3b4-fab927f4c020
   interface: ''
   mptcp: false
   name: RU俄罗斯(mibei77.com 米贝节点分享)_1
@@ -36,240 +32,11 @@ proxies:
   type: ss
   uot: false
   xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 1878
-        time: '2025-11-14T13:50:24.7957276+08:00'
-      - delay: 3950
-        time: '2025-11-14T13:51:06.4892673+08:00'
-  history:
-  - delay: 1878
-    time: '2025-11-14T13:50:24.7957276+08:00'
-  - delay: 3950
-    time: '2025-11-14T13:51:06.4892673+08:00'
-  id: 1f0c11dd-1c7b-6c40-9c50-9698d29c479d
-  interface: ''
-  mptcp: false
-  name: RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  routing-mark: 0
-  smux: false
-  type: ss
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 0
-        time: '2025-11-14T13:50:29.7963601+08:00'
-      - delay: 3421
-        time: '2025-11-14T13:51:07.4994734+08:00'
-  history:
-  - delay: 0
-    time: '2025-11-14T13:50:29.7963601+08:00'
-  - delay: 3421
-    time: '2025-11-14T13:51:07.4994734+08:00'
-  id: 1f0c11dd-1c7b-6c40-a4dd-2eccb6de8015
-  interface: ''
-  mptcp: false
-  name: GB英国(mibei77.com 米贝节点分享) 7_1
-  routing-mark: 0
-  smux: false
-  type: ss
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 1417
-        time: '2025-11-14T13:50:26.4599676+08:00'
-      - delay: 425
-        time: '2025-11-14T13:51:04.694688+08:00'
-  history:
-  - delay: 1417
-    time: '2025-11-14T13:50:26.4599676+08:00'
-  - delay: 425
-    time: '2025-11-14T13:51:04.694688+08:00'
-  id: 1f0c11dd-1c7b-6c40-8fd5-3aceb06582ed
-  interface: ''
-  mptcp: false
-  name: US美国(mibei77.com 米贝节点分享) 51_2
-  routing-mark: 0
-  smux: false
-  type: ss
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 1404
-        time: '2025-11-14T13:50:27.0358186+08:00'
-      - delay: 1649
-        time: '2025-11-14T13:51:08.0643925+08:00'
-  history:
-  - delay: 1404
-    time: '2025-11-14T13:50:27.0358186+08:00'
-  - delay: 1649
-    time: '2025-11-14T13:51:08.0643925+08:00'
-  id: 1f0c11dd-1c7b-6c40-95b0-7039f26b480d
-  interface: ''
-  mptcp: false
-  name: US美国(mibei77.com 米贝节点分享) 52_3
-  routing-mark: 0
-  smux: false
-  type: ss
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 393
-        time: '2025-11-14T13:50:26.853419+08:00'
-      - delay: 1450
-        time: '2025-11-14T13:51:07.9285828+08:00'
-  history:
-  - delay: 393
-    time: '2025-11-14T13:50:26.853419+08:00'
-  - delay: 1450
-    time: '2025-11-14T13:51:07.9285828+08:00'
-  id: 1f0c11dd-1c7b-6c40-86c3-ef606b2728e5
-  interface: ''
-  mptcp: false
-  name: US美国(mibei77.com 米贝节点分享) 53_4
-  routing-mark: 0
-  smux: false
-  type: ss
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 1188
-        time: '2025-11-14T13:50:27.6563601+08:00'
-      - delay: 2530
-        time: '2025-11-14T13:51:09.0198631+08:00'
-  history:
-  - delay: 1188
-    time: '2025-11-14T13:50:27.6563601+08:00'
-  - delay: 2530
-    time: '2025-11-14T13:51:09.0198631+08:00'
-  id: 1f0c11dd-1c7b-6c40-88ff-8cff92663535
-  interface: ''
-  mptcp: false
-  name: 🇭🇰 香港5|@stairnode_1
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 285
-        time: '2025-11-14T13:50:28.2610401+08:00'
-      - delay: 3767
-        time: '2025-11-14T13:51:11.8316917+08:00'
-  history:
-  - delay: 285
-    time: '2025-11-14T13:50:28.2610401+08:00'
-  - delay: 3767
-    time: '2025-11-14T13:51:11.8316917+08:00'
-  id: 1f0c11dd-1c7b-6c40-94f8-66033b351ca8
-  interface: ''
-  mptcp: false
-  name: 🇭🇰 香港4|@stairnode_1
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 0
-        time: '2025-11-14T13:50:33.2615233+08:00'
-      - delay: 740
-        time: '2025-11-14T13:51:09.3068009+08:00'
-  history:
-  - delay: 0
-    time: '2025-11-14T13:50:33.2615233+08:00'
-  - delay: 740
-    time: '2025-11-14T13:51:09.3068009+08:00'
-  id: 1f0c11dd-1c7b-6c40-8f86-1f9f81e2c2bd
-  interface: ''
-  mptcp: false
-  name: 🇭🇰 香港5|@stairnode_2
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 281
-        time: '2025-11-14T13:50:29.9090441+08:00'
-      - delay: 298
-        time: '2025-11-14T13:51:09.3182479+08:00'
-  history:
-  - delay: 281
-    time: '2025-11-14T13:50:29.9090441+08:00'
-  - delay: 298
-    time: '2025-11-14T13:51:09.3182479+08:00'
-  id: 1f0c11dd-1c7b-6c40-bccb-dfecd87e420a
-  interface: ''
-  mptcp: false
-  name: 🇸🇬 新加坡3|@stairnode_1
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
   use:
   - nodepool-provider
@@ -277,29 +44,11 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -307,115 +56,43 @@ proxy-groups:
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - RU俄罗斯(mibei77.com 米贝节点分享) 2_2
-  - GB英国(mibei77.com 米贝节点分享) 7_1
-  - US美国(mibei77.com 米贝节点分享) 51_2
-  - US美国(mibei77.com 米贝节点分享) 52_3
-  - US美国(mibei77.com 米贝节点分享) 53_4
-  - 🇭🇰 香港5|@stairnode_1
-  - 🇭🇰 香港4|@stairnode_1
-  - 🇭🇰 香港5|@stairnode_2
-  - 🇸🇬 新加坡3|@stairnode_1
   type: select
 proxy-providers:
   nodepool-provider:
