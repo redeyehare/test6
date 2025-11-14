@@ -18,12 +18,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 336
-        time: '2025-11-14T15:48:49.8347509+08:00'
+      - delay: 3590
+        time: '2025-11-14T15:49:10.7868653+08:00'
   history:
-  - delay: 336
-    time: '2025-11-14T15:48:49.8347509+08:00'
-  id: 1f0c12e5-d39b-627d-8671-2e2940722173
+  - delay: 3590
+    time: '2025-11-14T15:49:10.7868653+08:00'
+  id: 1f0c12e6-ba3e-6ae6-8aef-6709d0bc5522
   interface: ''
   mptcp: false
   name: 🇨🇳_CN_中国
@@ -39,12 +39,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1058
-        time: '2025-11-14T15:48:50.5580318+08:00'
+      - delay: 1049
+        time: '2025-11-14T15:49:08.2457759+08:00'
   history:
-  - delay: 1058
-    time: '2025-11-14T15:48:50.5580318+08:00'
-  id: 1f0c12e5-d39b-627d-bdce-6d12b080b599
+  - delay: 1049
+    time: '2025-11-14T15:49:08.2457759+08:00'
+  id: 1f0c12e6-ba3e-6ae6-a5b5-1549943af5d8
   interface: ''
   mptcp: false
   name: 🇨🇳_CN_中国_2
@@ -60,12 +60,54 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 994
-        time: '2025-11-14T15:48:50.4938097+08:00'
+      - delay: 2090
+        time: '2025-11-14T15:49:09.2866732+08:00'
   history:
-  - delay: 994
-    time: '2025-11-14T15:48:50.4938097+08:00'
-  id: 1f0c12e5-d39b-627d-bd43-ce590a5f684f
+  - delay: 2090
+    time: '2025-11-14T15:49:09.2866732+08:00'
+  id: 1f0c12e6-ba3f-6fa9-b068-fe84a0582a11
+  interface: ''
+  mptcp: false
+  name: 🇨🇳_CN_中国_3
+  routing-mark: 0
+  smux: false
+  type: trojan
+  udp: false
+  uot: true
+  xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1011
+        time: '2025-11-14T15:49:08.2086608+08:00'
+  history:
+  - delay: 1011
+    time: '2025-11-14T15:49:08.2086608+08:00'
+  id: 1f0c12e6-ba3f-6fa9-8859-f7bba2bb1146
+  interface: ''
+  mptcp: false
+  name: 🇺🇸_US_美国
+  routing-mark: 0
+  smux: false
+  type: vless
+  udp: false
+  uot: true
+  xudp: true
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 1043
+        time: '2025-11-14T15:49:08.2396598+08:00'
+  history:
+  - delay: 1043
+    time: '2025-11-14T15:49:08.2396598+08:00'
+  id: 1f0c12e6-ba3f-6fa9-a160-7c27bbd320bb
   interface: ''
   mptcp: false
   name: 🇸🇦_SA_沙特阿拉伯
@@ -81,12 +123,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 580
-        time: '2025-11-14T15:48:50.0797289+08:00'
+      - delay: 520
+        time: '2025-11-14T15:49:07.7165281+08:00'
   history:
-  - delay: 580
-    time: '2025-11-14T15:48:50.0797289+08:00'
-  id: 1f0c12e5-d39b-627d-9e93-dc5c0b712651
+  - delay: 520
+    time: '2025-11-14T15:49:07.7165281+08:00'
+  id: 1f0c12e6-ba3f-6fa9-9c8e-13b35bd8a56a
   interface: ''
   mptcp: false
   name: 🇷🇴_RO_罗马尼亚
@@ -102,33 +144,33 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 933
-        time: '2025-11-14T15:48:50.4336213+08:00'
+      - delay: 3326
+        time: '2025-11-14T15:49:10.5221925+08:00'
   history:
-  - delay: 933
-    time: '2025-11-14T15:48:50.4336213+08:00'
-  id: 1f0c12e5-d39b-627d-823e-53669c409e5a
+  - delay: 3326
+    time: '2025-11-14T15:49:10.5221925+08:00'
+  id: 1f0c12e6-ba3f-6fa9-b1c4-05bbbd437aa1
   interface: ''
   mptcp: false
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国_1
   routing-mark: 0
   smux: false
-  type: trojan
+  type: vless
   udp: false
   uot: true
-  xudp: false
+  xudp: true
 - alive: true
   dialer-proxy: ''
   extra:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 857
-        time: '2025-11-14T15:48:51.1870007+08:00'
+      - delay: 937
+        time: '2025-11-14T15:49:09.1773787+08:00'
   history:
-  - delay: 857
-    time: '2025-11-14T15:48:51.1870007+08:00'
-  id: 1f0c12e5-d39b-627d-841c-c752dd2441ea
+  - delay: 937
+    time: '2025-11-14T15:49:09.1773787+08:00'
+  id: 1f0c12e6-ba3f-6fa9-a8c7-7f52b704da82
   interface: ''
   mptcp: false
   name: 🇭🇺_HU_匈牙利
@@ -144,12 +186,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1258
-        time: '2025-11-14T15:48:51.7527292+08:00'
+      - delay: 1251
+        time: '2025-11-14T15:49:09.7217424+08:00'
   history:
-  - delay: 1258
-    time: '2025-11-14T15:48:51.7527292+08:00'
-  id: 1f0c12e5-d39c-6627-801f-b3ed3241d43d
+  - delay: 1251
+    time: '2025-11-14T15:49:09.7217424+08:00'
+  id: 1f0c12e6-ba3f-6fa9-8fe7-94dc0482e9bd
   interface: ''
   mptcp: false
   name: 🇳🇱_NL_荷兰
@@ -159,17 +201,40 @@ proxies:
   udp: false
   uot: true
   xudp: false
+- alive: true
+  dialer-proxy: ''
+  extra:
+    http://www.gstatic.com/generate_204:
+      alive: true
+      history:
+      - delay: 422
+        time: '2025-11-14T15:49:09.6002152+08:00'
+  history:
+  - delay: 422
+    time: '2025-11-14T15:49:09.6002152+08:00'
+  id: 1f0c12e6-ba3f-6fa9-a1fb-356defc73605
+  interface: ''
+  mptcp: false
+  name: US美国(mibei77.com 米贝节点分享) 2
+  routing-mark: 0
+  smux: false
+  type: ss
+  uot: false
+  xudp: false
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
   use:
   - nodepool-provider
@@ -178,22 +243,28 @@ proxy-groups:
   - ♻️ 自动选择
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -202,55 +273,70 @@ proxy-groups:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -258,11 +344,14 @@ proxy-groups:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -270,22 +359,28 @@ proxy-groups:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
+  - 🇨🇳_CN_中国_3
+  - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_1
   - 🇭🇺_HU_匈牙利
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 proxy-providers:
   nodepool-provider:
