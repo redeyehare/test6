@@ -18,33 +18,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 600
-        time: '2025-11-14T14:41:16.8148446+08:00'
+      - delay: 1902
+        time: '2025-11-14T14:43:38.4948004+08:00'
   history:
-  - delay: 600
-    time: '2025-11-14T14:41:16.8148446+08:00'
-  id: 1f0c124e-d490-6b95-96f9-acc96afbcab7
-  interface: ''
-  mptcp: false
-  name: 🇨🇳_CN_中国
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 787
-        time: '2025-11-14T14:41:17.0016341+08:00'
-  history:
-  - delay: 787
-    time: '2025-11-14T14:41:17.0016341+08:00'
-  id: 1f0c124e-d490-6b95-b0af-ebbda078b906
+  - delay: 1902
+    time: '2025-11-14T14:43:38.4948004+08:00'
+  id: 1f0c1254-0f39-626c-a0ff-0f62a53c6024
   interface: ''
   mptcp: false
   name: 🇨🇳_CN_中国_2
@@ -60,12 +39,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1965
-        time: '2025-11-14T14:41:18.1797696+08:00'
+      - delay: 1575
+        time: '2025-11-14T14:43:38.1674128+08:00'
   history:
-  - delay: 1965
-    time: '2025-11-14T14:41:18.1797696+08:00'
-  id: 1f0c124e-d490-6b95-87fb-54e974b32b32
+  - delay: 1575
+    time: '2025-11-14T14:43:38.1674128+08:00'
+  id: 1f0c1254-0f39-626c-8088-b2adf5791581
   interface: ''
   mptcp: false
   name: 🇨🇳_CN_中国_3
@@ -81,12 +60,12 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1844
-        time: '2025-11-14T14:41:18.058146+08:00'
+      - delay: 956
+        time: '2025-11-14T14:43:37.5481492+08:00'
   history:
-  - delay: 1844
-    time: '2025-11-14T14:41:18.058146+08:00'
-  id: 1f0c124e-d490-6b95-a450-56913e0e1df5
+  - delay: 956
+    time: '2025-11-14T14:43:37.5481492+08:00'
+  id: 1f0c1254-0f39-626c-9bbd-f65c0a831879
   interface: ''
   mptcp: false
   name: 🇸🇦_SA_沙特阿拉伯
@@ -102,57 +81,15 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1024
-        time: '2025-11-14T14:41:17.2383498+08:00'
+      - delay: 1705
+        time: '2025-11-14T14:43:39.1123174+08:00'
   history:
-  - delay: 1024
-    time: '2025-11-14T14:41:17.2383498+08:00'
-  id: 1f0c124e-d490-6b95-9f40-72e49d227364
+  - delay: 1705
+    time: '2025-11-14T14:43:39.1123174+08:00'
+  id: 1f0c1254-0f39-626c-9cbe-ddebf98ca64e
   interface: ''
   mptcp: false
-  name: 🇷🇴_RO_罗马尼亚
-  routing-mark: 0
-  smux: false
-  type: vless
-  udp: false
-  uot: true
-  xudp: true
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 783
-        time: '2025-11-14T14:41:16.9973338+08:00'
-  history:
-  - delay: 783
-    time: '2025-11-14T14:41:16.9973338+08:00'
-  id: 1f0c124e-d490-6b95-aa3c-657f5a90ad33
-  interface: ''
-  mptcp: false
-  name: 🇺🇸_US_美国_1
-  routing-mark: 0
-  smux: false
-  type: vless
-  udp: false
-  uot: true
-  xudp: true
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 873
-        time: '2025-11-14T14:41:17.0877303+08:00'
-  history:
-  - delay: 873
-    time: '2025-11-14T14:41:17.0877303+08:00'
-  id: 1f0c124e-d490-6b95-82ad-0cc9292ae606
-  interface: ''
-  mptcp: false
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国_4
   routing-mark: 0
   smux: false
   type: trojan
@@ -165,191 +102,125 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 804
-        time: '2025-11-14T14:41:17.8918811+08:00'
+      - delay: 411
+        time: '2025-11-14T14:43:39.5236402+08:00'
   history:
-  - delay: 804
-    time: '2025-11-14T14:41:17.8918811+08:00'
-  id: 1f0c124e-d491-6f45-a382-c81e19c5a720
+  - delay: 411
+    time: '2025-11-14T14:43:39.5236402+08:00'
+  id: 1f0c1254-0f39-626c-947d-8f6e6c01c575
   interface: ''
   mptcp: false
-  name: 🇭🇺_HU_匈牙利
+  name: US美国(mibei77.com 米贝节点分享) 2
   routing-mark: 0
   smux: false
-  type: vless
-  udp: false
-  uot: true
-  xudp: true
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 842
-        time: '2025-11-14T14:41:18.1337745+08:00'
-  history:
-  - delay: 842
-    time: '2025-11-14T14:41:18.1337745+08:00'
-  id: 1f0c124e-d491-6f45-aabb-37f29ca89cd9
-  interface: ''
-  mptcp: false
-  name: 🇳🇱_NL_荷兰
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
+  type: ss
+  uot: false
   xudp: false
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_2
   - 🇨🇳_CN_中国_3
   - 🇸🇦_SA_沙特阿拉伯
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
-  - 🇭🇺_HU_匈牙利
-  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_4
+  - US美国(mibei77.com 米贝节点分享) 2
   type: select
 proxy-providers:
   nodepool-provider:
