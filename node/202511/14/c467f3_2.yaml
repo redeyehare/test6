@@ -18,95 +18,16 @@ proxies:
     http://www.gstatic.com/generate_204:
       alive: true
       history:
-      - delay: 1917
-        time: '2025-11-14T15:49:12.4393064+08:00'
+      - delay: 1470
+        time: '2025-11-14T16:05:20.195945+08:00'
+      - delay: 661
+        time: '2025-11-14T16:05:50.6059953+08:00'
   history:
-  - delay: 1917
-    time: '2025-11-14T15:49:12.4393064+08:00'
-  id: 1f0c12e6-ba3f-6fa9-8659-139cd9c908ee
-  interface: ''
-  mptcp: false
-  name: US美国(mibei77.com 米贝节点分享) 8
-  routing-mark: 0
-  smux: false
-  type: ss
-  uot: false
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 2332
-        time: '2025-11-14T15:49:19.5321747+08:00'
-  history:
-  - delay: 2332
-    time: '2025-11-14T15:49:19.5321747+08:00'
-  id: 1f0c12e6-ba41-64ad-830b-97b527b7ad91
-  interface: ''
-  mptcp: false
-  name: 🇭🇰 香港3|@stairnode
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 769
-        time: '2025-11-14T15:49:20.3013041+08:00'
-  history:
-  - delay: 769
-    time: '2025-11-14T15:49:20.3013041+08:00'
-  id: 1f0c12e6-ba41-64ad-bf39-fcb3bd7cb4c1
-  interface: ''
-  mptcp: false
-  name: 🇸🇬 新加坡3|@stairnode
-  routing-mark: 0
-  smux: false
-  type: trojan
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 549
-        time: '2025-11-14T15:49:24.145279+08:00'
-  history:
-  - delay: 549
-    time: '2025-11-14T15:49:24.145279+08:00'
-  id: 1f0c12e6-ba41-64ad-9d61-9dc66f837077
-  interface: ''
-  mptcp: false
-  name: 🇯🇵 日本4|@stairnode_1
-  routing-mark: 0
-  smux: false
-  type: vmess
-  udp: false
-  uot: true
-  xudp: false
-- alive: true
-  dialer-proxy: ''
-  extra:
-    http://www.gstatic.com/generate_204:
-      alive: true
-      history:
-      - delay: 1618
-        time: '2025-11-14T15:49:26.3412951+08:00'
-  history:
-  - delay: 1618
-    time: '2025-11-14T15:49:26.3412951+08:00'
-  id: 1f0c12e6-ba41-64ad-b11b-9e70d404a688
+  - delay: 1470
+    time: '2025-11-14T16:05:20.195945+08:00'
+  - delay: 661
+    time: '2025-11-14T16:05:50.6059953+08:00'
+  id: 1f0c130a-8943-6b99-a963-f8abbcf825f2
   interface: ''
   mptcp: false
   name: 🇺🇸 美国3|@stairnode_1
@@ -120,10 +41,6 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
   use:
@@ -131,19 +48,11 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   tolerance: 50
   type: url-test
@@ -151,75 +60,43 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享) 8
-  - 🇭🇰 香港3|@stairnode
-  - 🇸🇬 新加坡3|@stairnode
-  - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
   type: select
 proxy-providers:
