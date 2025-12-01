@@ -4,7 +4,7 @@
     "https://nodeserer.redeyehare.workers.dev/server01",
     "127.0.0.1:9091"
   ],
-  "update_url": "https://firegame.dpdns.org/hotupdate/",
+  "update_url": "https://firegame.dpdns.org/hotupdate/catalog_1.0.json",
   "Entry_Scene": "HotAssets/Entry.unity",
   "date": "20251114",
   "time": "21:04:07",
