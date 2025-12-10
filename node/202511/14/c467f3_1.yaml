@@ -12,6 +12,14 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- name: 🇨🇳_CN_中国_3
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -54,18 +62,6 @@ proxies:
   tls: true
   type: vless
   uuid: 75c18b2c-9f28-44e5-9fde-02c00b6d30a0
-- name: 🇺🇸_US_美国_4
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: 🇳🇱_NL_荷兰
   network: ws
   password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
@@ -79,17 +75,17 @@ proxies:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
 - cipher: chacha20-ietf-poly1305
+  name: US美国(mibei77.com 米贝节点分享) 2
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: US美国(mibei77.com 米贝节点分享) 8
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: RU俄罗斯(mibei77.com 米贝节点分享) 3
-  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
-  port: 443
-  server: 45.14.245.2
   type: ss
   udp: true
 - name: 🇭🇰 香港4|@stairnode
@@ -119,13 +115,13 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -135,13 +131,13 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -149,13 +145,13 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -165,13 +161,13 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -179,13 +175,13 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -193,13 +189,13 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -207,13 +203,13 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -221,13 +217,13 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -236,13 +232,13 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -251,13 +247,13 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
@@ -265,13 +261,13 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇨🇳_CN_中国_3
   - 🇺🇸_US_美国
   - 🇸🇦_SA_沙特阿拉伯
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
+  - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 8
-  - RU俄罗斯(mibei77.com 米贝节点分享) 3
   - 🇭🇰 香港4|@stairnode
   - 🇯🇵 日本4|@stairnode_1
   - 🇺🇸 美国3|@stairnode_1
