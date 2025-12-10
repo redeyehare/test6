@@ -41,6 +41,7 @@ const CORE = ["main.dart.js",
 "index.html",
 "flutter_bootstrap.js",
 "assets/AssetManifest.bin.json",
+'canvaskit/canvaskit.wasm',
 "assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
