@@ -1,58 +1,66 @@
 {
   "version": "0.1.0",
   "servers": [
-    "https://nodeserer.redeyehare.workers.dev/server01",
-    "127.0.0.1:9091"
+    "http://127.0.0.1:8787/"
   ],
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "HotAssets/Entry.unity",
   "date": "20251114",
   "time": "21:04:07",
   "code": "847715",
-  "groups": [
+  "assets": [
     {
       "type": "clash",
       "describe": "第c467f3_1组",
+      "kind": "#",
       "url": "#https://firegame.dpdns.org/node/202511/14/c467f3_1.yaml"
     },
     {
       "type": "clash",
       "describe": "第c467f3_2组",
+      "kind": "#",
       "url": "#https://firegame.dpdns.org/node/202511/14/c467f3_2.yaml"
     },
     {
       "type": "clash",
       "describe": "第0组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/0-20251114.yaml"
     },
     {
       "type": "clash",
       "describe": "第1组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/1-20251114.yaml"
     },
     {
       "type": "clash",
       "describe": "第2组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/2-20251114.yaml"
     },
     {
       "type": "clash",
       "describe": "第20251114组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/20251114-clash.yaml"
     },
     {
       "type": "clash",
       "describe": "第3组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/3-20251114.yaml"
     },
     {
       "type": "clash",
       "describe": "第4组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/4-20251114.yaml"
     },
     {
       "type": "clash",
       "describe": "第v2ray组",
+      "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202511/14/d/v2ray-20251114.txt"
     }
   ],
