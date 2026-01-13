@@ -78,6 +78,34 @@
       "PayChannel": "weiixn",
       "currency": "CNY",
       "price": 10
+    },
+    {
+      "id": "002",
+      "type":"shop",
+      "name": "01",
+      "mode": "add",
+      "date": "111111",
+      "scribe": "111111",
+      "kind":"#",
+      "msg": "111111",
+      "active" : 1,
+      "PayChannel": "weiixn",
+      "currency": "CNY",
+      "price": 10
+    },
+    {
+      "id": "003",
+      "type":"shop",
+      "name": "01",
+      "mode": "add",
+      "date": "111111",
+      "scribe": "111111",
+      "kind":"#",
+      "msg": "111111",
+      "active" : 1,
+      "PayChannel": "weiixn",
+      "currency": "CNY",
+      "price": 10
     }
   ]
 }
