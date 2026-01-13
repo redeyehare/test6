@@ -3,7 +3,7 @@
   "servers": [
     "http://127.0.0.1:8787/"
   ],
-  "update_url": "https://firegame.dpdns.org/hotupdate/",
+  "update_url": "#quTH3nFf2oNaCZpYpRXRRg",
   "Entry_Scene": "HotAssets/Entry.unity",
   "date": "20251114",
   "time": "21:04:07",
@@ -13,7 +13,7 @@
       "type": "clash",
       "describe": "第c467f3_1组",
       "kind": "#",
-      "url": "#https://firegame.dpdns.org/node/202511/14/c467f3_1.yaml"
+      "url": "#quTH3nFf2oNaCZpYpRXRRg"
     },
     {
       "type": "clash",
