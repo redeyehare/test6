@@ -67,11 +67,17 @@
   "shops": [
     {
       "id": "001",
+      "type":"shop",
       "name": "01",
-      "duration": "111111",
-      "price": "10",
+      "mode": "add",
+      "date": "111111",
+      "scribe": "111111",
+      "kind":"#",
       "msg": "111111",
-      "PayChannel": "weiixn"
+      "active" : 1,
+      "PayChannel": "weiixn",
+      "currency": "CNY",
+      "price": 10
     }
   ]
 }
