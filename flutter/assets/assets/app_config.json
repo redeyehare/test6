@@ -1,0 +1,6 @@
+{
+    "webJsonUrl": "https://firegame.dpdns.org/web/webJson.json",
+    "fetchKeyIntervalMinutes": 0,
+    "webJsonRefreshIntervalMinutes": 3,
+    "defaultVisitorId": "11111111"
+}
