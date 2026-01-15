@@ -27,6 +27,12 @@
       "describe": "第20260115组",
       "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202601/15/d/20260115-clash.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "速度快节点多",
+      "kind": "&",
+      "url": ""
     }
   ],
   "shops": [
