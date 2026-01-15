@@ -31,12 +31,46 @@
   ],
   "shops": [
     {
-      "id": "001",
+      "id": "695bbbdb93c217fc35e0b23e",
+      "type": "shop",
       "name": "01",
-      "duration": "111111",
-      "price": "10",
+      "mode": "add",
+      "date": "11",
+      "scribe": "111111",
+      "kind": "#",
       "msg": "111111",
-      "PayChannel": "weiixn"
+      "active": 1,
+      "PayChannel": "weiixn",
+      "currency": "CNY",
+      "price": 10
+    },
+    {
+      "id": "695cba56cd8653c5c7033aff",
+      "type": "shop",
+      "name": "02",
+      "mode": "add",
+      "date": "111",
+      "scribe": "111111",
+      "kind": "#",
+      "msg": "111111",
+      "active": 1,
+      "PayChannel": "weiixn",
+      "currency": "CNY",
+      "price": 10
+    },
+    {
+      "id": "00300",
+      "type": "shop",
+      "name": "03",
+      "mode": "add",
+      "date": "111111",
+      "scribe": "111111",
+      "kind": "#",
+      "msg": "111111",
+      "active": 1,
+      "PayChannel": "weiixn",
+      "currency": "CNY",
+      "price": 10
     }
   ]
 }
