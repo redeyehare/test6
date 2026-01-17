@@ -78,12 +78,12 @@
       "currency":"CNY",
       "price":10
     },
-        {
+    {
       "id":"6968fbaf20f36c22e1893391",
       "type":"activity ",
       "name":"兑换01",
       "mode":"exchange",
-      "date":"695bbbdb93c217fc35e0b23e",
+      "date":"695bbbdb93c217fc35e0b23e", 
       "scribe":"111111",
       "kind":"#",
       "msg":"兑换使用1天",
@@ -92,5 +92,19 @@
       "currency":"",
       "price":0
     }
+  ],
+  "activity":[
+    {
+     "name":"登录奖励",
+     "msg":"用户每天登录自行兑换,优质节点1天",
+     "voucher_id":"6968fbaf20f36c22e1893391"
+    }
+  ],
+  "exchange":[
+    {
+        "shop_id":"695bbbdb93c217fc35e0b23e",
+"valid":1,
+"msg":"兑换商品1天",
+    },
   ]
 }
