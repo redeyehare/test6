@@ -105,6 +105,11 @@
     "shop_id":"695bbbdb93c217fc35e0b23e",
     "valid":1,
     "msg":"兑换商品1天"
+    },
+        {
+    "shop_id":"696f290ec6d017f0bcff6bce",
+    "valid":1,
+    "msg":"兑换1日券,当日有效"
     }
   ]
 }
