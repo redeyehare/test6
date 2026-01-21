@@ -39,7 +39,7 @@
     {
       "id":"695bbbdb93c217fc35e0b23e",
       "type":"shop",
-      "name":"1天",
+      "name":"优质节点1天",
       "mode":"add",
       "date":"1",
       "scribe":"111111",
@@ -51,9 +51,9 @@
       "price":10
     },
     {
-      "id":"695cba56cd8653c5c7033aff",
+      "id":"696f28afc6d017f0bcff6bcd",
       "type":"shop",
-      "name":"7天",
+      "name":"优质节点1天7天",
       "mode":"add",
       "date":"7",
       "scribe":"111111",
@@ -65,9 +65,9 @@
       "price":10
     },
     {
-      "id":"6968fb8d20f36c22e1893390",
+      "id":"69706db9e0bdd6f9218630d7",
       "type":"shop",
-      "name":"30天",
+      "name":"优质节点1月",
       "mode":"add",
       "date":"30",
       "scribe":"111111",
@@ -79,19 +79,19 @@
       "price":10
     },
     {
-      "id":"6968fbaf20f36c22e1893391",
-      "type":"activity ",
-      "name":"兑换01",
-      "mode":"exchange",
-      "date":"695bbbdb93c217fc35e0b23e", 
+      "id":"69706e18e0bdd6f9218630dc",
+      "type":"shop",
+      "name":"超级节点1天",
+      "mode":"add",
+      "date":"1",
       "scribe":"111111",
-      "kind":"#",
-      "msg":"兑换使用1天",
+      "kind":"&",
+      "msg":"使用时长1天",
       "active":1,
-      "PayChannel":"",
-      "currency":"",
-      "price":0
-    }
+      "PayChannel":"weiixn",
+      "currency":"CNY",
+      "price":10
+    },
   ],
   "activity":[
     {
