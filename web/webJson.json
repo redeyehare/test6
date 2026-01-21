@@ -102,14 +102,19 @@
   ],
   "exchange":[
     {
-    "shop_id":"695bbbdb93c217fc35e0b23e",
+    "shop_id":"697065832512fcb40ccb5b0a",
     "valid":1,
-    "msg":"兑换商品1天"
+    "msg":"兑换优质节点1天"
+    },
+    {
+    "shop_id":"697065562512fcb40ccb5b09",
+    "valid":1,
+    "msg":"兑换超级节点1天"
     },
         {
-    "shop_id":"696f290ec6d017f0bcff6bce",
+    "shop_id":"697065d12512fcb40ccb5b0b",
     "valid":1,
-    "msg":"兑换1日券,当日有效"
+    "msg":"兑换超级节点7天"
     }
   ]
 }
