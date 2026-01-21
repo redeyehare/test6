@@ -1,6 +1,8 @@
 {
     "webJsonUrl": "https://firegame.dpdns.org/web/webJson.json",
     "fetchKeyIntervalMinutes": 0,
-    "webJsonRefreshIntervalMinutes": 3,
-    "defaultVisitorId": "11111111"
+    "webJsonRefreshIntervalSeconds": 60,
+    "refreshLimitTip": "间隔 {} 秒后方可再次刷新",
+    "defaultVisitorId": "11111111",
+    "customerServiceTip": "请联系客服!"
 }
