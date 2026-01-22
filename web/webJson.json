@@ -1,8 +1,9 @@
 {
   "verson": "0.1.0",
   "servers": [
-    "https://s01.firegame.dpdns.org",
     "http://127.0.0.1:8787",
+    "https://s01.firegame.dpdns.org",
+    
     "127.0.0.1:9091"
   ],
   "update_url": "https://firegame.dpdns.org/hotupdate/",
