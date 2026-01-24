@@ -1,8 +1,8 @@
 {
   "verson": "0.1.0",
   "servers": [
-    "http://127.0.0.1:8787",
     "https://s01.firegame.dpdns.org",
+    "http://127.0.0.1:8787",
     
     "127.0.0.1:9091"
   ],
