@@ -70,20 +70,6 @@ proxies:
   port: 11201
   server: 154.205.147.237
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 原生住宅 01
-  network: ws
-  port: 80
-  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
-    path: /
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
@@ -95,7 +81,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
   use:
   - nodepool-provider
@@ -109,7 +94,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -121,7 +105,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -135,7 +118,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: 📲 电报信息
   proxies:
@@ -147,7 +129,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -159,7 +140,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -171,7 +151,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -183,7 +162,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -196,7 +174,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -209,7 +186,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -221,7 +197,6 @@ proxy-groups:
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
-  - 原生住宅 01
   type: select
 proxy-providers:
   nodepool-provider:
