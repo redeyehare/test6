@@ -12,123 +12,74 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国_1
-  password: 2272de48c53e0a57
-  port: 11201
-  server: 154.205.147.237
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 中国 - 香港 - PCCW IMS Limited - 45
-  network: ws
-  port: 80
-  server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+- name: 🇸🇬 新加坡|@stairnode
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3901
+  server: 153.121.38.213
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  ws-opts:
-    headers:
-      Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
-  network: ws
-  port: 80
-  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
-    path: /
+  sni: www.nintendogames.net
+  type: trojan
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇸🇬 新加坡|@stairnode
   type: select
 proxy-providers:
   nodepool-provider:
