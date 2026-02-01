@@ -20,20 +20,6 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 中国香港 01
-  network: ws
-  port: 80
-  server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  ws-opts:
-    headers:
-      Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
   name: 原生住宅 01
   network: ws
   port: 80
@@ -51,7 +37,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
   use:
@@ -60,14 +45,12 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   tolerance: 50
   type: url-test
@@ -76,35 +59,30 @@ proxy-groups:
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: 🛑 全球拦截
@@ -112,7 +90,6 @@ proxy-groups:
   - REJECT
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: 🍃 应用净化
@@ -120,14 +97,12 @@ proxy-groups:
   - REJECT
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 中国 02
-  - 🇭🇰 中国香港 01
   - 原生住宅 01
   type: select
 proxy-providers:
