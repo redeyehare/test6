@@ -12,22 +12,6 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港|@stairnode
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇸🇬 新加坡|@stairnode
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3901
-  server: 153.121.38.213
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
   name: 每天更新免费节点：clashfreenode.com
@@ -74,8 +58,6 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -87,8 +69,6 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -98,8 +78,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -111,8 +89,6 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -122,8 +98,6 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -133,8 +107,6 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -144,8 +116,6 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -155,8 +125,6 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -167,8 +135,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -179,8 +145,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
@@ -190,8 +154,6 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
-  - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
   - 🇯🇵 日本 03
