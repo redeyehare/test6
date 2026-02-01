@@ -12,6 +12,15 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@stairnode
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇸🇬 新加坡|@stairnode
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 3901
@@ -34,6 +43,13 @@ proxies:
   udp: true
   uuid: e59083aa-d933-4952-8cf0-eec74f718705
   xudp: true
+- name: 🇯🇵 日本 02
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3423
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 🇯🇵 日本 03
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 3423
@@ -68,122 +84,169 @@ proxies:
     headers:
       Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
     path: /
+- alterId: 2
+  cipher: auto
+  name: 原生住宅 01
+  network: ws
+  port: 80
+  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇭🇰 香港|@stairnode
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
   - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 proxy-providers:
   nodepool-provider:
