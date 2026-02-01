@@ -21,6 +21,42 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇸🇬 新加坡|@stairnode
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3901
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 每天更新免费节点：clashfreenode.com
+  network: tcp
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: ''
+  server: fr.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  xudp: true
+- name: 🇯🇵 日本 02
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3423
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本 03
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3423
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 🇸🇬 新加坡 01
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 3076
@@ -67,6 +103,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -78,6 +118,10 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -87,6 +131,10 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -98,6 +146,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -107,6 +159,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -116,6 +172,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -125,6 +185,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -134,6 +198,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -144,6 +212,10 @@ proxy-groups:
   - REJECT
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -154,6 +226,10 @@ proxy-groups:
   - REJECT
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -163,6 +239,10 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
