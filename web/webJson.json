@@ -8,7 +8,7 @@
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "Entry",
   "date": "20260201",
-  "time": "17:04:18",
+  "time": "17:07:39",
   "code": "8439.3601",
   "assets": [
     {
@@ -28,18 +28,6 @@
       "describe": "第20260131组",
       "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202602/01/d/20260131-clash.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第20260131组",
-      "kind": "@",
-      "url": "@https://firegame.dpdns.org/node/202602/01/d/20260131-v2ray.txt"
-    },
-    {
-      "type": "clash",
-      "describe": "第20260131组",
-      "kind": "@",
-      "url": "@https://firegame.dpdns.org/node/202602/01/d/20260131.html"
     },
     {
       "type": "clash",

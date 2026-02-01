@@ -19,11 +19,88 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 每天更新免费节点：clashfreenode.com
+  network: tcp
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: ''
+  server: fr.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  xudp: true
+- name: 🇯🇵 日本 02
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3423
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本 03
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3423
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡 01
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3076
+  server: 153.121.65.107
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 中国 02
+  password: 2272de48c53e0a57
+  port: 11201
+  server: 154.205.147.237
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 中国香港 01
+  network: ws
+  port: 80
+  server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  ws-opts:
+    headers:
+      Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 原生住宅 01
+  network: ws
+  port: 80
+  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
   use:
   - nodepool-provider
@@ -31,11 +108,25 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -43,43 +134,99 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🇸🇬 新加坡|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇸🇬 新加坡 01
+  - 中国 02
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 proxy-providers:
   nodepool-provider:
