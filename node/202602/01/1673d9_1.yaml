@@ -50,13 +50,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵 日本 03
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3423
-  server: 153.121.38.213
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 🇸🇬 新加坡 01
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 3076
@@ -106,7 +99,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -121,7 +113,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -134,7 +125,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -149,7 +139,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -162,7 +151,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -175,7 +163,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -188,7 +175,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -201,7 +187,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -215,7 +200,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -229,7 +213,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
@@ -242,7 +225,6 @@ proxy-groups:
   - 🇸🇬 新加坡|@stairnode
   - 每天更新免费节点：clashfreenode.com
   - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
   - 🇸🇬 新加坡 01
   - 中国 02
   - 🇭🇰 中国香港 01
