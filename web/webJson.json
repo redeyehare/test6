@@ -7,15 +7,51 @@
   ],
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "Entry",
-  "date": "20260201",
-  "time": "17:07:39",
-  "code": "8439.3601",
+  "date": "20260202",
+  "time": "16:06:35",
+  "code": "1458.3258",
   "assets": [
     {
       "type": "clash",
       "describe": "第57d982_1组",
       "kind": "#",
-      "url": "n3ay9T6gWfGRa7TgKvsbu9lmtuEj6VixhWXp6yL+E/HFMvSzfahZ7sUt87Ipo07sqDPo/Cz3Gg=="
+      "url": "nyjc/4NUD3uRNdrqlw9NMdk42OueHQ47hTuH4Z8KRXvFbJq5wFwPZMVznbiUVxhmqG2G9pEDTA=="
+    },
+    {
+      "type": "clash",
+      "describe": "第57d982_2组",
+      "kind": "#",
+      "url": "nyjc/4NUD3uRNdrqlw9NMdk42OueHQ47hTuH4Z8KRXvFbJq5wFwPZMVznbiUVxhmqG6G9pEDTA=="
+    },
+    {
+      "type": "clash",
+      "describe": "第57d982_3组",
+      "kind": "#",
+      "url": "nyjc/4NUD3uRNdrqlw9NMdk42OueHQ47hTuH4Z8KRXvFbJq5wFwPZMVznbiUVxhmqG+G9pEDTA=="
+    },
+    {
+      "type": "clash",
+      "describe": "第57d982_4组",
+      "kind": "#",
+      "url": "nyjc/4NUD3uRNdrqlw9NMdk42OueHQ47hTuH4Z8KRXvFbJq5wFwPZMVznbiUVxhmqGiG9pEDTA=="
+    },
+    {
+      "type": "clash",
+      "describe": "第2组",
+      "kind": "@",
+      "url": "https://firegame.dpdns.org/node/202602/02/d/2-20260202.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第20260202组",
+      "kind": "@",
+      "url": "https://firegame.dpdns.org/node/202602/02/d/20260202-clash.yaml"
+    },
+    {
+      "type": "clash",
+      "describe": "第4组",
+      "kind": "@",
+      "url": "https://firegame.dpdns.org/node/202602/02/d/4-20260202.yaml"
     }
   ],
   "shops": [

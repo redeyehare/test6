@@ -12,76 +12,291 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- name: 🇸🇬 新加坡 03
+  password: BxceQaOe
+  port: 1691
+  server: 13.113.82.107
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇻🇳 越南 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 委内瑞拉 01
+  port: 51102
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  server: 158.160.221.132
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港|@stairnode
-  port: 30807
-  server: v10.hdacd.com
+  name: 中国 01
+  network: ws
+  port: 80
+  server: a97f4a24-t9w4g0-tn57fp-5ifr.hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 02
+  network: ws
+  port: 80
+  server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 03
+  network: ws
+  port: 80
+  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 04
+  network: ws
+  port: 80
+  server: 92c73b3e-t9w4g0-thd0h1-1rz5s.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 05
+  network: ws
+  port: 80
+  server: 51f142c0-t9w4g0-tart0c-g3b3.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 06
+  network: ws
+  port: 80
+  server: c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 07
+  network: ws
+  port: 80
+  server: 967d835d-t9w4g0-tysu9z-1nq4g.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇭🇰 香港|@stairnode
+  - 🇸🇬 新加坡 03
+  - 🇻🇳 越南 01
+  - 委内瑞拉 01
+  - 中国 01
+  - 中国 02
+  - 中国 03
+  - 中国 04
+  - 中国 05
+  - 中国 06
+  - 中国 07
   type: select
 proxy-providers:
   nodepool-provider:
