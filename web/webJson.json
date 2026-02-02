@@ -34,6 +34,12 @@
       "describe": "第3组",
       "kind": "@",
       "url": "@https://firegame.dpdns.org/node/202602/01/d/3-20260131.yaml"
+    },
+        {
+      "type": "clash",
+      "describe": "速度快节点多",
+      "kind": "&",
+      "url": ""
     }
   ],
   "shops": [
