@@ -12,28 +12,6 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- name: 🇺🇸 美国德国 01
-  network: ws
-  port: 2052
-  server: nx.cloud1.hosting-ip.zulagaming.icu
-  tls: false
-  type: vless
-  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
-  ws-opts:
-    headers:
-      Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-    path: /?ed=2560
-- name: 🇺🇸 美国芬兰 01
-  network: ws
-  port: 80
-  server: FASTLY.COM
-  tls: false
-  type: vless
-  uuid: c805b05e-339d-40e0-8787-432d97a27345
-  ws-opts:
-    headers:
-      Host: mihan-germar2.global.ssl.fastly.net
-    path: /
 - client-fingerprint: chrome
   name: 英国 01
   port: 8081
@@ -56,8 +34,6 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
@@ -66,16 +42,12 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   tolerance: 50
@@ -84,40 +56,30 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
@@ -125,8 +87,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
@@ -134,16 +94,12 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇺🇸 美国德国 01
-  - 🇺🇸 美国芬兰 01
   - 英国 01
   - 德国 01
   type: select

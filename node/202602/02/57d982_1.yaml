@@ -12,19 +12,21 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳 越南|@stairnode
+  port: 58623
+  server: 160.191.245.48
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
 - name: 🇺🇸 美国 03
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 5076
   server: 46.51.237.24
   skip-cert-verify: false
   sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国 04
-  password: BxceQaOe
-  port: 1221
-  server: 43.199.77.22
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -103,8 +105,8 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -119,8 +121,8 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -133,8 +135,8 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -149,8 +151,8 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -163,8 +165,8 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -177,8 +179,8 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -191,8 +193,8 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -205,8 +207,8 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -220,8 +222,8 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -235,8 +237,8 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
@@ -249,8 +251,8 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇻🇳 越南|@stairnode
   - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
