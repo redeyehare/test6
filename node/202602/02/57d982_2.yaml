@@ -33,6 +33,18 @@ proxies:
   server: 103.186.155.81
   type: ss
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 委内瑞拉 01
+  port: 51102
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  server: 158.160.221.132
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+- client-fingerprint: chrome
   name: 🇺🇸 巴西美国 01
   network: ws
   port: 443
@@ -98,18 +110,6 @@ proxies:
   port: 38388
   server: 103.186.155.127
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国荷兰 02
-  port: 443
-  reality-opts:
-    public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-    short-id: 8453e5fd9af927
-  server: rus-0001-xr.packet-drop-society.net
-  servername: hls-svod.itunes.apple.com
-  tls: true
-  type: vless
-  uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
@@ -117,13 +117,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
   use:
   - nodepool-provider
@@ -133,13 +133,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -147,13 +147,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -163,13 +163,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: 📲 电报信息
   proxies:
@@ -177,13 +177,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -191,13 +191,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -205,13 +205,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -219,13 +219,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -234,13 +234,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -249,13 +249,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -263,13 +263,13 @@ proxy-groups:
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 🇻🇳 越南 01
+  - 委内瑞拉 01
   - 🇺🇸 巴西美国 01
   - 🇷🇺 俄罗斯 01
   - 🇷🇺 俄罗斯 02
   - 🇷🇺 俄罗斯波兰 01
   - 🇷🇺 俄罗斯美国 01
   - 未知 01
-  - 🇺🇸 美国荷兰 02
   type: select
 proxy-providers:
   nodepool-provider:

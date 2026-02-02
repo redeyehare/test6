@@ -73,19 +73,13 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
     path: /ws
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 10
-  network: ws
-  port: 443
-  server: 190.93.245.102
-  servername: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
-  tls: true
-  type: vless
-  uuid: f521fa2c-835e-43e7-b4dc-a1fd6f2ed1dd
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
-    path: /ws
+- name: 🇯🇵 日本 02
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3423
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 🇭🇰 香港 03
   password: BxceQaOe
   port: 2826
@@ -117,7 +111,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -133,7 +127,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -147,7 +141,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -163,7 +157,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -177,7 +171,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -191,7 +185,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -205,7 +199,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -219,7 +213,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -234,7 +228,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -249,7 +243,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
@@ -263,7 +257,7 @@ proxy-groups:
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
   - 🇺🇸 美国 08
-  - 🇺🇸 美国 10
+  - 🇯🇵 日本 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
   - 🇸🇬 新加坡 01
