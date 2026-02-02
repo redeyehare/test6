@@ -13,33 +13,9 @@
   "assets": [
     {
       "type": "clash",
-      "describe": "第1673d9_1组",
+      "describe": "第57d982_1组",
       "kind": "#",
-      "url": "#n3ay9T6gWfFJjfoQqevvWZaP9lRcxS2Yq5oO6KzHI1XnTNUUmCuF/dKNIUwpmJgX+KgD1PAo4w=="
-    },
-    {
-      "type": "clash",
-      "describe": "第2组",
-      "kind": "@",
-      "url": "@https://firegame.dpdns.org/node/202602/01/d/2-20260131.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第20260131组",
-      "kind": "@",
-      "url": "@https://firegame.dpdns.org/node/202602/01/d/20260131-clash.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第3组",
-      "kind": "@",
-      "url": "@https://firegame.dpdns.org/node/202602/01/d/3-20260131.yaml"
-    },
-        {
-      "type": "clash",
-      "describe": "速度快节点多",
-      "kind": "&",
-      "url": ""
+      "url": "n3ay9T6gWfGRa7TgKvsbu9lmtuEj6VixhWXp6yL+E/HFMvSzfahZ7sUt87Ipo07sqDPo/Cz3Gg=="
     }
   ],
   "shops": [
