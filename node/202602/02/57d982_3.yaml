@@ -14,6 +14,24 @@ port: 7892
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯美国 01
+  port: 8443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 205748bc0f24a747
+  server: 89.169.162.214
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+- cipher: aes-256-cfb
+  name: 未知 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇺🇸 美国荷兰 02
   port: 443
   reality-opts:
@@ -72,6 +90,8 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -83,6 +103,8 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -92,6 +114,8 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -103,6 +127,8 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -112,6 +138,8 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -121,6 +149,8 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -130,6 +160,8 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -139,6 +171,8 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -149,6 +183,8 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -159,6 +195,8 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
@@ -168,6 +206,8 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇷🇺 俄罗斯美国 01
+  - 未知 01
   - 🇺🇸 美国荷兰 02
   - 巴西德国 01
   - 🇺🇸 美国法国 01
