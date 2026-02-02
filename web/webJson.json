@@ -8,9 +8,15 @@
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "Entry",
   "date": "20260202",
-  "time": "16:06:35",
+  "time": "16:27:54",
   "code": "1458.3258",
   "assets": [
+    {
+      "type": "clash",
+      "describe": "速度快节点多",
+      "kind": "&",
+      "url": ""
+    },
     {
       "type": "clash",
       "describe": "第57d982_1组",

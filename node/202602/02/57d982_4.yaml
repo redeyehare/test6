@@ -12,6 +12,17 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- client-fingerprint: chrome
+  name: 英国 01
+  port: 8081
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: 425ba80cd1a821a8
+  server: 5.188.142.230
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: 148fcfad-46d5-40c1-8045-52c4f626fc8a
 - name: 德国 01
   port: 443
   server: secdn17.suio.me
@@ -23,6 +34,7 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
   use:
@@ -30,11 +42,13 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 英国 01
   - 德国 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 英国 01
   - 德国 01
   tolerance: 50
   type: url-test
@@ -42,43 +56,51 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 英国 01
   - 德国 01
   type: select
 proxy-providers:

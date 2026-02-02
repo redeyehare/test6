@@ -12,12 +12,12 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- name: 🇸🇬 新加坡 03
-  password: BxceQaOe
-  port: 1691
-  server: 13.113.82.107
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+- name: 🇸🇬 新加坡 02
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 3901
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - cipher: aes-256-cfb
   name: 🇻🇳 越南 01
@@ -25,18 +25,6 @@ proxies:
   port: 38388
   server: 103.186.155.81
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 委内瑞拉 01
-  port: 51102
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  server: 158.160.221.132
-  servername: yandex.ru
-  tls: true
-  type: vless
-  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
 - alterId: 2
   cipher: auto
   name: 中国 01
@@ -137,13 +125,27 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 中国 08
+  network: ws
+  port: 80
+  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -151,15 +153,15 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -167,13 +169,13 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -181,15 +183,15 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -197,13 +199,13 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -211,13 +213,13 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -225,13 +227,13 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -239,13 +241,13 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -253,14 +255,14 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -268,14 +270,14 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -283,13 +285,13 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇸🇬 新加坡 03
+  - 🇸🇬 新加坡 02
   - 🇻🇳 越南 01
-  - 委内瑞拉 01
   - 中国 01
   - 中国 02
   - 中国 03
@@ -297,6 +299,7 @@ proxy-groups:
   - 中国 05
   - 中国 06
   - 中国 07
+  - 中国 08
   type: select
 proxy-providers:
   nodepool-provider:
