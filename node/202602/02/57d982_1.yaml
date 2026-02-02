@@ -21,11 +21,41 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 中国香港 01
+  network: ws
+  port: 80
+  server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  ws-opts:
+    headers:
+      Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 原生住宅 01
+  network: ws
+  port: 80
+  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    path: /
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
   use:
   - nodepool-provider
@@ -33,11 +63,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -45,43 +79,59 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🇭🇰 香港|@stairnode
+  - 🇭🇰 中国香港 01
+  - 原生住宅 01
   type: select
 proxy-providers:
   nodepool-provider:
