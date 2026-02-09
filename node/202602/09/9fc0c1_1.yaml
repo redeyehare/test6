@@ -12,92 +12,304 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- name: 🇯🇵 日本2|@stairnode
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 1933
-  server: 160.16.105.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 每天更新免费节点：clashfreenode.com
+  network: ws
+  port: 47790
+  server: 36.50.90.241
+  servername: sg.dalxy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  ws-opts:
+    headers:
+      HOST: sg.dalxy.eu.org
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+- country: 🇭🇰HK
+  name: 🇭🇰 香港 07
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
   type: trojan
-- name: 🇺🇸 美国|@stairnode
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 5076
-  server: 160.16.72.205
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 香港 10
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- country: 🇭🇰 HK
+  name: 🇭🇰 香港 11
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.36
+  skip-cert-verify: true
+  tls: true
   type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 香港 13
+  network: ws
+  port: 80
+  server: 611518d6-t9w4g0-ta5i1s-1j61y.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 香港 16
+  network: ws
+  port: 80
+  server: 385d62f2-t70f40-ta5i1s-1j61y.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+    short-id: ''
+  server: 144.31.92.240
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+    short-id: ''
+  server: 144.31.248.157
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
+  xudp: true
+- name: 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  password: ''
+  port: 1080
+  server: 161.35.82.57
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  password: ''
+  port: 1080
+  server: 104.248.197.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇯🇵 日本2|@stairnode
-  - 🇺🇸 美国|@stairnode
+  - 每天更新免费节点：clashfreenode.com
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 10
+  - 🇭🇰 香港 11
+  - 🇭🇰 香港 13
+  - 🇭🇰 香港 16
+  - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   type: select
 proxy-providers:
   nodepool-provider:
