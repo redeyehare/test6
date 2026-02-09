@@ -76,23 +76,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇭🇰 香港 06
-  password: b0c9d775-32f7-459a-b24d-ecda7c9f3720
-  port: 11688
-  server: ss.020.node-for-bigairport.win
-  type: ss
-- country: 🇭🇰HK
-  name: 🇭🇰 香港 07
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
 - name: 🇸🇬 新加坡 01
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
@@ -120,6 +103,13 @@ proxies:
   port: 38388
   server: 103.186.155.127
   type: ss
+- name: 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  password: ''
+  port: 1080
+  server: 161.35.82.57
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - alterId: 0
   cipher: auto
   country: 🇮🇳IN
@@ -132,6 +122,13 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: bf951708-9f75-47a7-8649-3ab0a7d2cc15
+- name: 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  password: ''
+  port: 1080
+  server: 104.248.197.67
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -328,6 +325,27 @@ proxies:
   port: 38388
   server: 103.186.155.50
   type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
+  network: ws
+  port: 2083
+  server: georgewashington.elterido.ir
+  servername: de.elterido.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f0d6a8a-4a41-4295-8fa4-32957ccc59fa
+  ws-opts:
+    headers:
+      Host: de.elterido.ir
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /api03
+  xudp: true
 - name: 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -389,13 +407,6 @@ proxies:
   password: ''
   port: 1080
   server: 192.241.156.17
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- name: 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
-  password: ''
-  port: 10814
-  server: 213.35.110.67
   skip-cert-verify: true
   type: socks5
   username: ''
@@ -493,13 +504,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -521,13 +532,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -550,13 +561,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -578,13 +589,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -605,13 +616,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -633,13 +644,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -662,13 +673,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -690,13 +701,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -717,13 +728,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -745,13 +756,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -772,13 +783,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -800,13 +811,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -827,13 +838,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -855,13 +866,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -882,13 +893,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -910,13 +921,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -938,13 +949,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -966,13 +977,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -994,13 +1005,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -1022,13 +1033,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
@@ -1049,13 +1060,13 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
-  - 🇭🇰 香港 06
-  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
+  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
@@ -1077,13 +1088,13 @@ proxy-groups:
   - 🇩🇪DE²_4|6.7MB/s|6%|GPT⁺|X 01
   - 🇫🇷FR²_2|6.5MB/s|42%|GPT|X 01
   - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇩🇪DE²_5|6.3MB/s|6%|GPT|X 01
   - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
   - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
   - 🇺🇸US²_3|1.3MB/s|X 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
-  - 🏴‍☠_3213.35.110.67:10814-01|8.4MB/s|X 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
   - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01

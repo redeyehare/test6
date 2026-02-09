@@ -174,6 +174,22 @@ proxies:
     headers:
       HOST: nasnet-571296497.iranpress.co
     path: /nasnet/cdn
+- client-fingerprint: chrome
+  name: 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
+  network: ws
+  password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q
+  port: 443
+  server: 188.114.97.3
+  skip-cert-verify: false
+  sni: mfyousheng.nl.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /tjwsLhx0SFASG4l9FERJ1g
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
@@ -181,6 +197,13 @@ proxies:
   port: 38388
   server: 103.186.155.66
   type: ss
+- name: 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
+  password: ''
+  port: 1080
+  server: 104.248.203.234
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
@@ -228,7 +251,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -254,7 +279,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -278,7 +305,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -304,7 +333,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -328,7 +359,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -352,7 +385,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -376,7 +411,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -400,7 +437,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -425,7 +464,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -450,7 +491,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
@@ -474,7 +517,9 @@ proxy-groups:
   - 🇻🇳VN²_24|0.6MB/s|GPT⁺|GM|X|Succeed 01
   - 🇰🇷KR²_4|8.0MB/s|10%|GPT⁺|GM|YT|X 01
   - 🇩🇪DE²_10|6.6MB/s|49%|GPT⁺|X|History 01
+  - 🇱🇺LU²_1|6.1MB/s|GPT|X|History 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
+  - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_26|0.6MB/s|GPT⁺|X 01
   - 🇻🇳VN²_27|2.5MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
