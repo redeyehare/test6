@@ -30,19 +30,11 @@ proxies:
     headers:
       HOST: sg.dalxy.eu.org
     path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- name: 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
-  password: ''
-  port: 1080
-  server: 147.45.124.194
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
   use:
   - nodepool-provider
@@ -50,13 +42,11 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -64,51 +54,43 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
-  - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 proxy-providers:
   nodepool-provider:

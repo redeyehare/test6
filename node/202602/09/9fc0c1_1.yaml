@@ -12,251 +12,74 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- name: 🇺🇸 美国|@stairnode
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 153.121.38.213
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国 04
-  password: BxceQaOe
-  port: 2569
-  server: 43.199.47.199
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本 02
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 4006
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本 03
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 4006
-  server: 160.16.138.24
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港 02
+- name: 🇭🇰 香港3|@stairnode
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3373
-  server: 52.195.8.127
+  server: 54.95.118.21
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰 香港 03
-  password: BxceQaOe
-  port: 4183
-  server: 43.199.47.199
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港 04
-  password: BxceQaOe
-  port: 3292
-  server: 43.199.47.199
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- country: 🇭🇰HK
-  name: 🇭🇰 香港 07
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 香港 09
-  network: ws
-  port: 80
-  server: beaf5846-ta9340-tbmmr9-146qr.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 21a74582-f139-11ed-ab21-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- country: 🇭🇰 HK
-  name: 🇭🇰 香港 11
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇺🇸 美国|@stairnode
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
-  - 🇭🇰 香港 07
-  - 🇭🇰 香港 09
-  - 🇭🇰 香港 11
+  - 🇭🇰 香港3|@stairnode
   type: select
 proxy-providers:
   nodepool-provider:
