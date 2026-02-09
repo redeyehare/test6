@@ -12,13 +12,6 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.77
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇭🇰HK
@@ -48,7 +41,6 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
@@ -57,14 +49,12 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   tolerance: 50
@@ -73,35 +63,30 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
@@ -109,7 +94,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
@@ -117,14 +101,12 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇻🇳VN²_28|1.7MB/s|GPT⁺|GM|X|History 01
   - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   - 🏴‍☠_5🏴‍☠_7147.45.124.194:1080-01|4.5MB/s|3.8MB/s|X|History 01
   type: select
