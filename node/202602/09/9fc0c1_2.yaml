@@ -43,6 +43,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: 未知 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -83,13 +89,20 @@ proxies:
   udp: true
   uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
   xudp: true
-- name: 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+- name: 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   password: ''
   port: 1080
-  server: 104.248.197.67
+  server: 161.35.82.57
   skip-cert-verify: true
   type: socks5
   username: ''
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -106,19 +119,6 @@ proxies:
   udp: true
   uuid: e6ec1d89-17fc-4de7-af89-81cd51022526
   xudp: true
-- name: 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- cipher: chacha20-ietf-poly1305
-  country: 🇧🇬BG
-  name: 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
-  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
-  port: 31348
-  server: 89.44.197.181
-  type: ss
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
@@ -127,12 +127,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
   use:
   - nodepool-provider
@@ -143,12 +143,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -157,12 +157,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -173,12 +173,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: 📲 电报信息
   proxies:
@@ -187,12 +187,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -201,12 +201,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -215,12 +215,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -229,12 +229,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -244,12 +244,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -259,12 +259,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -273,12 +273,12 @@ proxy-groups:
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
+  - 未知 01
   - 🇳🇱NL²_1|6.1MB/s|0%|GPT⁺|X|Succeed 01
   - 🇺🇸US²_1|4.3MB/s|0%|GPT⁺|X|Succeed 01
-  - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
   - 🇺🇸US²_2|5.9MB/s|0%|GPT⁺|X|History 01
-  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
-  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
   type: select
 proxy-providers:
   nodepool-provider:

@@ -12,6 +12,24 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: sg.dalxy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  ws-opts:
+    headers:
+      HOST: sg.dalxy.eu.org
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
 - grpc-opts:
     grpc-service-name: ardai60.ardaserver.site
   name: 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
@@ -79,6 +97,7 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -92,6 +111,7 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -103,6 +123,7 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -116,6 +137,7 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -127,6 +149,7 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -138,6 +161,7 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -149,6 +173,7 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -160,6 +185,7 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -172,6 +198,7 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -184,6 +211,7 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
@@ -195,6 +223,7 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇸🇬SG²_6|15.1MB/s|0%|GPT⁺|YT|D+|X 01
   - 🇩🇪DE²_11|1.3MB/s|42%|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_25|2.4MB/s|GPT|GM|YT-US|X|History 01
   - 🇳🇱NL²_9|5.5MB/s|GPT⁺|X|Succeed 01
