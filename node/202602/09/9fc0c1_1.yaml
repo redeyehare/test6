@@ -76,6 +76,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- country: 🇭🇰HK
+  name: 🇭🇰 香港 07
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - name: 🇸🇬 新加坡 01
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
@@ -103,13 +113,6 @@ proxies:
   port: 38388
   server: 103.186.155.127
   type: ss
-- name: 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
-  password: ''
-  port: 1080
-  server: 161.35.82.57
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - alterId: 0
   cipher: auto
   country: 🇮🇳IN
@@ -504,11 +507,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -561,11 +564,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -616,11 +619,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -673,11 +676,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -728,11 +731,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -783,11 +786,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -838,11 +841,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -893,11 +896,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -949,11 +952,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -1005,11 +1008,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
@@ -1060,11 +1063,11 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
   - 未知 01
-  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_3|6.3MB/s|0%|GPT|NF|D+|X 01
   - 🇳🇱NL²_4|5.4MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
