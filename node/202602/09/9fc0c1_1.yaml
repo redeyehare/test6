@@ -19,11 +19,506 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 🇺🇸 美国|@stairnode
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 276
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国 02
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 127
+  server: 54.250.24.198
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国 03
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 127
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国 04
+  password: BxceQaOe
+  port: 2569
+  server: 43.199.47.199
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本 02
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 4006
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本 03
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 4006
+  server: 160.16.138.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港 02
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3373
+  server: 52.195.8.127
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港 03
+  password: BxceQaOe
+  port: 4183
+  server: 43.199.47.199
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港 04
+  password: BxceQaOe
+  port: 3292
+  server: 43.199.47.199
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- country: 🇭🇰HK
+  name: 🇭🇰 香港 07
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 香港 09
+  network: ws
+  port: 80
+  server: beaf5846-ta9340-tbmmr9-146qr.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 21a74582-f139-11ed-ab21-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- name: 🇸🇬 新加坡 01
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3901
+  server: 160.16.138.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡 02
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3901
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡 03
+  password: BxceQaOe
+  port: 381
+  server: 43.198.233.56
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-cfb
+  name: 未知 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
+- name: 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  password: ''
+  port: 1080
+  server: 161.35.82.57
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
+  type: ss
+- name: 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇬BG
+  name: 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
+  port: 31348
+  server: 89.44.197.181
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_1|3.5MB/s|X|History 01
+  port: 443
+  reality-opts:
+    public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
+    short-id: 8a6605e7
+  server: 45.139.26.213
+  servername: www.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 原生商宽 01
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 138.249.117.155
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3cceef33-56ff-4f21-8479-2e1719e04886
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.202
+  type: ss
+- name: 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  password: ''
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.183
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.225
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  network: tcp
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: ''
+  server: fr.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  xudp: true
+- name: 原生疑似家宽高风险黑名单 01
+  port: 1080
+  server: 193.233.254.8
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.37
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.201
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.41
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.50
+  type: ss
+- name: 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 146.103.117.132
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3cceef33-56ff-4f21-8479-2e1719e04886
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.225
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.71
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US²_3|1.3MB/s|X 01
+  network: ws
+  port: 8443
+  server: 172.67.153.156
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /57ba2ab1
+  xudp: true
+- name: 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  password: ''
+  port: 1080
+  server: 192.241.156.17
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  network: ws
+  port: 443
+  server: 104.17.73.206
+  servername: o00o.snip.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  ws-opts:
+    headers:
+      Host: o00o.snip.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Tel-@v2rayngzendegimamad@v2rayngzendegimamad
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.53
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.205
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.140
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.65
+  type: ss
+- encryption: none
+  name: 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  password: qwerREWQ@@
+  port: 41632
+  server: 103.238.214.82
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.67
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  network: ws
+  port: 2083
+  server: 8.6.112.0
+  servername: ds1-mx-fn154-protection.iranlease.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96d9bcb0-9ad2-48be-85a2-a9ab3a005261
+  ws-opts:
+    headers:
+      Host: ds1-mx-fn154-protection.iranlease.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇹🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  network: ws
+  port: 10443
+  server: 203.69.248.40
+  servername: sg.dalxy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  ws-opts:
+    headers:
+      HOST: sg.dalxy.eu.org
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.245
+  type: ss
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
   use:
   - nodepool-provider
@@ -31,11 +526,111 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -43,43 +638,443 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 🇭🇰 香港3|@stairnode
+  - 🇺🇸 美国|@stairnode
+  - 🇺🇸 美国 02
+  - 🇺🇸 美国 03
+  - 🇺🇸 美国 04
+  - 🇯🇵 日本 02
+  - 🇯🇵 日本 03
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 03
+  - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
+  - 🇭🇰 香港 09
+  - 🇸🇬 新加坡 01
+  - 🇸🇬 新加坡 02
+  - 🇸🇬 新加坡 03
+  - 未知 01
+  - 🇳🇱NL²_2|5.6MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_1|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇰🇷KR²_1|3.4MB/s|4%|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇧🇬BG²_1|3.1MB/s|37%|GPT⁺|X|History 01
+  - 🇷🇺RU²_1|3.5MB/s|X|History 01
+  - 原生商宽 01
+  - 🇻🇳VN²_3|1.7MB/s|GPT⁺|GM|X 01
+  - 🏴‍☠_1🏴‍☠_4🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.3MB/s|History|2.8MB/s|X|Succeed
+    01
+  - 🇻🇳VN²_4|2.2MB/s|GPT|GM|X|Succeed 01
+  - 🇻🇳VN²_5|3.1MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇫🇷FR²_1|2.1MB/s|42%|GPT⁺|TK|X|History 01
+  - 原生疑似家宽高风险黑名单 01
+  - 🇻🇳VN²_6|0.8MB/s|GPT⁺|GM|YT-US|X|Succeed 01
+  - 🇻🇳VN²_7|0.6MB/s|GPT⁺|X 01
+  - 🇻🇳VN²_8|1.7MB/s|GPT⁺|GM|X|Succeed 01
+  - 🇻🇳VN²_9|1.0MB/s|GPT⁺|X 01
+  - 🇹🇼TW²_1|8.5MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇳🇱NL²_6|0.7MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_10|1.7MB/s|GPT|GM|X|History 01
+  - 🇻🇳VN²_11|2.4MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
+  - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
+  - 🇻🇳VN²_12|1.7MB/s|GPT|GM|YT-RU|X|History 01
+  - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
+  - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
+  - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
+  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
+  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
+  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
+  - 🇩🇪DE²_8|6.2MB/s|0%|GPT⁺|D+|X|History 01
+  - 🇸🇬SG²_4|8.2MB/s|0%|GPT⁺|YT|D+|X 01
+  - 🇻🇳VN²_18|2.0MB/s|GPT⁺|GM|X 01
   type: select
 proxy-providers:
   nodepool-provider:
