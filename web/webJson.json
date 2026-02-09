@@ -8,7 +8,7 @@
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "Entry",
   "date": "20260209",
-  "time": "20:46:56",
+  "time": "21:16:58",
   "code": "4154.0219",
   "assets": [
     {
@@ -52,6 +52,24 @@
       "describe": "第9fc0c1_6组",
       "kind": "#",
       "url": "80g/ryUkcc/9VTm6MX8zhbVYO7s4bXCP6VtksTl6O8+pDHnpZixx0KITcrk1Lj3RxAplpjdzMg=="
+    },
+    {
+      "type": "clash",
+      "describe": "第9fc0c1_7组",
+      "kind": "#",
+      "url": "80g/ryUkcc/9VTm6MX8zhbVYO7s4bXCP6VtksTl6O8+pDHnpZixx0KITcrk1Lj3RxAtlpjdzMg=="
+    },
+    {
+      "type": "clash",
+      "describe": "第9fc0c1_8组",
+      "kind": "#",
+      "url": "80g/ryUkcc/9VTm6MX8zhbVYO7s4bXCP6VtksTl6O8+pDHnpZixx0KITcrk1Lj3RxARlpjdzMg=="
+    },
+    {
+      "type": "clash",
+      "describe": "第9fc0c1_9组",
+      "kind": "#",
+      "url": "80g/ryUkcc/9VTm6MX8zhbVYO7s4bXCP6VtksTl6O8+pDHnpZixx0KITcrk1Lj3RxAVlpjdzMg=="
     },
     {
       "type": "clash",

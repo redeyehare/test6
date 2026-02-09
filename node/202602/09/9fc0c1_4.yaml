@@ -12,6 +12,43 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US²_3|1.3MB/s|X 01
+  network: ws
+  port: 8443
+  server: 172.67.153.156
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /57ba2ab1
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
+  network: ws
+  port: 23280
+  server: 168.138.171.70
+  servername: sg.dalxy.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
+  ws-opts:
+    headers:
+      Host: sg.dalxy.eu.org
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
+  xudp: true
 - name: 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   password: ''
   port: 1080
@@ -100,32 +137,12 @@ proxies:
   port: 38388
   server: 103.186.154.65
   type: ss
-- encryption: none
-  name: 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  type: vless
-  udp: true
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
-  ws-opts:
-    headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /?ed
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  password: qwerREWQ@@
-  port: 41632
-  server: 103.238.214.82
-  type: ss
-  udp: true
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -134,14 +151,14 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -150,12 +167,12 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -164,14 +181,14 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -180,12 +197,12 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -194,12 +211,12 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -208,12 +225,12 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -222,12 +239,12 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -236,13 +253,13 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -251,13 +268,13 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -266,12 +283,12 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇺🇸US²_3|1.3MB/s|X 01
+  - 🇸🇬SG²_1|1.5MB/s|0%|GPT⁺|YT|X|Succeed 01
   - 🇺🇸US²_4|4.4MB/s|GPT⁺|X|History 01
   - 🇺🇸US²_5|3.6MB/s|GPT⁺|X 01
   - 🇺🇸US¹⁺_1|6.6MB/s|GPT⁺|GM|YT|NF|D+|X|History 01
@@ -280,8 +297,6 @@ proxy-groups:
   - 🇻🇳VN²_13|1.3MB/s|GPT|GM|YT-US|X 01
   - 🇻🇳VN²_14|0.5MB/s|GPT|X 01
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
-  - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
-  - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
   type: select
 proxy-providers:
   nodepool-provider:

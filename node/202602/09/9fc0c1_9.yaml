@@ -12,29 +12,15 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
-- name: 🇭🇰 香港3|@stairnode
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3373
-  server: 54.95.118.21
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国|@stairnode
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 276
-  server: 153.121.38.213
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 每天更新免费节点：clashfreenode.com
+  name: 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   network: ws
-  port: 47790
-  server: 36.50.90.241
+  port: 443
+  server: 112.119.8.12
   servername: sg.dalxy.eu.org
   skip-cert-verify: true
   tls: true
@@ -44,215 +30,67 @@ proxies:
     headers:
       HOST: sg.dalxy.eu.org
     path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- name: 🇺🇸 美国 02
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 127
-  server: 54.250.24.198
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国 03
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 127
-  server: 160.16.85.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国 04
-  password: BxceQaOe
-  port: 2569
-  server: 43.199.47.199
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本 02
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 4006
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本 03
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 4006
-  server: 160.16.138.24
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港 03
-  password: BxceQaOe
-  port: 4183
-  server: 43.199.47.199
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港 04
-  password: BxceQaOe
-  port: 3292
-  server: 43.199.47.199
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
   use:
   - nodepool-provider
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇭🇰 香港3|@stairnode
-  - 🇺🇸 美国|@stairnode
-  - 每天更新免费节点：clashfreenode.com
-  - 🇺🇸 美国 02
-  - 🇺🇸 美国 03
-  - 🇺🇸 美国 04
-  - 🇯🇵 日本 02
-  - 🇯🇵 日本 03
-  - 🇭🇰 香港 03
-  - 🇭🇰 香港 04
+  - 🇸🇬SG²_7|13.8MB/s|GPT⁺|YT|D+|X 01
   type: select
 proxy-providers:
   nodepool-provider:
