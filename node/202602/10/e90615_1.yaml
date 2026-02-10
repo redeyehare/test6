@@ -136,6 +136,16 @@ proxies:
     headers:
       Host: DiprOX.pages.DEV
     path: /assets
+- client-fingerprint: chrome
+  name: 🇧🇪_BE_比利时
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+  server: fr.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
@@ -150,6 +160,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
   use:
   - nodepool-provider
@@ -166,6 +177,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -180,6 +192,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -196,6 +209,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: 📲 电报信息
   proxies:
@@ -210,6 +224,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -224,6 +239,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -238,6 +254,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -252,6 +269,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -267,6 +285,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -282,6 +301,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -296,6 +316,7 @@ proxy-groups:
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
   - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
+  - 🇧🇪_BE_比利时
   type: select
 proxy-providers:
   nodepool-provider:
