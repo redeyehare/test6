@@ -111,19 +111,6 @@ proxies:
       Host: ir1.airpanel.top
     path: /
 - client-fingerprint: chrome
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 2083
-  server: 192.200.160.228
-  servername: de.elterido.ir
-  tls: true
-  type: vless
-  uuid: 9f846e5c-56f9-4670-8be2-5b00d2a107c0
-  ws-opts:
-    headers:
-      Host: de.elterido.ir
-    path: /api03
-- client-fingerprint: chrome
   name: 🇺🇸_US_美国_4
   network: ws
   port: 443
@@ -158,7 +145,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -175,7 +161,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -190,7 +175,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   tolerance: 50
@@ -207,7 +191,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -222,7 +205,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -237,7 +219,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -252,7 +233,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -267,7 +247,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -283,7 +262,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -299,7 +277,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
@@ -314,7 +291,6 @@ proxy-groups:
   - 🇨🇳_CN_中国->🏳️_unKnow_未知
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
   - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
