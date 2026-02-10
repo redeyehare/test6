@@ -88,6 +88,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- country: 🇭🇰HK
+  name: 🇭🇰 香港 07
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - name: 🇸🇬 新加坡 01
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3901
@@ -475,13 +485,6 @@ proxies:
   server: 103.238.214.82
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.67
-  type: ss
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
@@ -496,6 +499,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -536,7 +540,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
   use:
   - nodepool-provider
@@ -553,6 +556,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -593,7 +597,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -608,6 +611,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -648,7 +652,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -665,6 +668,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -705,7 +709,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 📲 电报信息
   proxies:
@@ -720,6 +723,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -760,7 +764,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -775,6 +778,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -815,7 +819,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -830,6 +833,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -870,7 +874,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -885,6 +888,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -925,7 +929,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -941,6 +944,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -981,7 +985,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -997,6 +1000,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -1037,7 +1041,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -1052,6 +1055,7 @@ proxy-groups:
   - 🇭🇰 香港 02
   - 🇭🇰 香港 03
   - 🇭🇰 香港 04
+  - 🇭🇰 香港 07
   - 🇸🇬 新加坡 01
   - 🇸🇬 新加坡 02
   - 🇸🇬 新加坡 03
@@ -1092,7 +1096,6 @@ proxy-groups:
   - 🇻🇳VN²_15|0.7MB/s|GPT⁺|YT|X 01
   - 🇩🇪DE²_7|7.3MB/s|49%|GPT⁺|X|History 01
   - 🇻🇳VN²_16|1.4MB/s|GPT⁺|GM|YT-KR|NF|X 01
-  - 🇻🇳VN²_17|2.8MB/s|GPT⁺|X|Succeed 01
   type: select
 proxy-providers:
   nodepool-provider:
