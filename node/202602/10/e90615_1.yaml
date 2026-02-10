@@ -13,32 +13,6 @@ mode: Rule
 port: 7892
 proxies:
 - client-fingerprint: chrome
-  name: 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  network: ws
-  port: 443
-  server: 46.32.184.75
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@@jdfxq
-- client-fingerprint: chrome
-  name: 🇧🇪_BE_比利时->🇺🇸_US_美国
-  network: ws
-  port: 8443
-  server: 143.20.213.206
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
   name: 🇺🇸_US_美国
   network: ws
   port: 443
@@ -63,80 +37,6 @@ proxies:
   type: vless
   uuid: aec54bed-2384-4b85-8372-432597aa5518
 - client-fingerprint: chrome
-  name: 🇺🇸_US_美国_1
-  port: 7008
-  reality-opts:
-    public-key: OYuAdC90TNjvXbmJJyCsP0i9RXjdR1g8nBcjk421Aws
-    short-id: de5765
-  server: 142.93.101.216
-  servername: bebem.com
-  tls: true
-  type: vless
-  uuid: a3ea154c-2827-4ceb-aae7-0fe743ce9f73
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇳_CN_中国->🏳️_unKnow_未知
-  port: 443
-  reality-opts:
-    public-key: X6M54TjT_X10PF8zMBxr_m4Djoyy_m4nhP28o-lGKy8
-    short-id: cf563330b1a8ef60
-  server: 62.60.229.32
-  servername: web.max.ru
-  tls: true
-  type: vless
-  uuid: e3379093-7c89-4c8a-be1f-abb92a3305a1
-- client-fingerprint: chrome
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 8443
-  server: 172.67.153.156
-  servername: ovhwuxian.pai50288.uk
-  tls: true
-  type: vless
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
-- name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 2053
-  server: vip3.kaixincloud.top
-  servername: ir1.airpanel.top
-  tls: true
-  type: vless
-  uuid: e5f8a9f6-f164-479b-b3b5-b90f213c7145
-  ws-opts:
-    headers:
-      Host: ir1.airpanel.top
-    path: /
-- client-fingerprint: chrome
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  port: 2083
-  server: 192.200.160.228
-  servername: de.elterido.ir
-  tls: true
-  type: vless
-  uuid: 9f846e5c-56f9-4670-8be2-5b00d2a107c0
-  ws-opts:
-    headers:
-      Host: de.elterido.ir
-    path: /api03
-- client-fingerprint: chrome
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: DiprOX.pages.DEV
-  tls: true
-  type: vless
-  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
-  ws-opts:
-    headers:
-      Host: DiprOX.pages.DEV
-    path: /assets
-- client-fingerprint: chrome
   name: 🇧🇪_BE_比利时
   port: 3032
   reality-opts:
@@ -150,16 +50,8 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
   use:
@@ -167,31 +59,15 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   tolerance: 50
   type: url-test
@@ -199,123 +75,59 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇦🇿_AZ_阿塞拜疆->🇱🇻_LV_拉脱维亚
-  - 🇧🇪_BE_比利时->🇺🇸_US_美国
   - 🇺🇸_US_美国
   - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🏳️_unKnow_未知
-  - 🇺🇸_US_美国_2
-  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_4
   - 🇧🇪_BE_比利时
   type: select
 proxy-providers:
