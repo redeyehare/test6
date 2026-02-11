@@ -14,6 +14,24 @@ port: 7892
 proxies:
 - alterId: 0
   cipher: auto
+  name: 英国节点
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 美國
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 6dfbef3b-f718-4053-806f-c9657e2fd943
+  port: 12345
+  server: us.jljd.xyz
+  skip-cert-verify: false
+  sni: us.jljd.xyz
+  type: hysteria2
+- alterId: 0
+  cipher: auto
   name: 法国节点
   network: ws
   port: 44579
@@ -82,6 +100,18 @@ proxies:
     headers:
       Host: TURK.NET
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 俄羅斯
+  port: 8443
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+  server: 78.153.139.68
+  servername: images.apple.com
+  tls: true
+  type: vless
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇷_GR_希腊
@@ -105,424 +135,15 @@ proxies:
     headers:
       Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
     path: /?ed
-- name: 🇫🇮FI_146
-  network: ws
-  port: 80
-  server: 151.101.76.146
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港|@stairnode
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
   tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_155
-  network: ws
-  port: 80
-  server: 151.101.76.155
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_186
-  network: ws
-  port: 80
-  server: 151.101.76.186
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_67
-  network: ws
-  port: 80
-  server: 151.101.76.67
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_92
-  network: ws
-  port: 80
-  server: 151.101.76.92
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_110
-  network: ws
-  port: 80
-  server: 151.101.76.110
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_111
-  network: ws
-  port: 80
-  server: 151.101.76.111
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_125
-  network: ws
-  port: 80
-  server: 151.101.76.125
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_139
-  network: ws
-  port: 80
-  server: 151.101.76.139
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_173
-  network: ws
-  port: 80
-  server: 151.101.76.173
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_207
-  network: ws
-  port: 80
-  server: 151.101.76.207
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_4
-  network: ws
-  port: 80
-  server: 151.101.76.4
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_13
-  network: ws
-  port: 80
-  server: 151.101.76.13
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_14
-  network: ws
-  port: 80
-  server: 151.101.76.14
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_27
-  network: ws
-  port: 80
-  server: 151.101.76.27
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_43
-  network: ws
-  port: 80
-  server: 151.101.76.43
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_64
-  network: ws
-  port: 80
-  server: 151.101.76.64
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_96
-  network: ws
-  port: 80
-  server: 151.101.76.96
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_151
-  network: ws
-  port: 80
-  server: 151.101.76.151
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_1
-  network: ws
-  port: 80
-  server: 151.101.76.1
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_18
-  network: ws
-  port: 80
-  server: 151.101.76.18
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_24
-  network: ws
-  port: 80
-  server: 151.101.76.24
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_82
-  network: ws
-  port: 80
-  server: 151.101.76.82
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_90
-  network: ws
-  port: 80
-  server: 151.101.76.90
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_108
-  network: ws
-  port: 80
-  server: 151.101.76.108
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_115
-  network: ws
-  port: 80
-  server: 151.101.76.115
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_161
-  network: ws
-  port: 80
-  server: 151.101.76.161
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_185
-  network: ws
-  port: 80
-  server: 151.101.76.185
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_193
-  network: ws
-  port: 80
-  server: 151.101.76.193
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_228
-  network: ws
-  port: 80
-  server: 151.101.76.228
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_0
-  network: ws
-  port: 80
-  server: 151.101.76.0
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_7
-  network: ws
-  port: 80
-  server: 151.101.76.7
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_11
-  network: ws
-  port: 80
-  server: 151.101.76.11
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_17
-  network: ws
-  port: 80
-  server: 151.101.76.17
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_25
-  network: ws
-  port: 80
-  server: 151.101.76.25
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_35
-  network: ws
-  port: 80
-  server: 151.101.76.35
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_42
-  network: ws
-  port: 80
-  server: 151.101.76.42
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_54
-  network: ws
-  port: 80
-  server: 151.101.76.54
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 443
@@ -537,26 +158,6 @@ proxies:
   port: 38388
   server: 103.186.154.239
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 原生机房 01
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
-    short-id: b8cf9578640a9edf
-  server: 176.109.106.241
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 原生机房 02
@@ -620,26 +221,6 @@ proxies:
   port: 38388
   server: 103.186.155.75
   type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 原生机房 20
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: nasnet
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-  xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
   name: 原生机房 22
@@ -654,28 +235,24 @@ proxies:
   port: 38388
   server: 103.186.155.40
   type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 原生机房 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  type: ss
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 广播商宽 01
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 广播商宽 03
   network: tcp
-  port: 443
+  port: 52042
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: ''
-  server: deu435.unlocknet.org
-  servername: www.metal.de
+    public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
+    short-id: 8e8dcb9a67bf43f1
+  server: 185.156.72.124
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 6867f208-1e50-48cb-9baf-e3ce539f90f5
+  uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -697,20 +274,25 @@ proxies:
   udp: true
   uuid: b42f7955-3741-406f-b95a-ed7b051ae5aa
   xudp: true
-- encryption: none
-  name: 广播机房 01
-  network: ws
-  port: 80
-  server: 151.101.76.254
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 广播机房 02
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 8f222b3475800821
+  server: 158.160.221.132
+  servername: yandex.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /?ed=2560
+  uuid: e8accc46-c511-42fb-919b-9283799a88a1
   xudp: true
 - alpn:
   - ''
@@ -749,26 +331,14 @@ proxies:
   udp: true
   uuid: e8accc46-c511-42fb-919b-9283799a88a1
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 广播机房 07
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 8f222b3475800821
-  server: 158.160.221.132
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8accc46-c511-42fb-919b-9283799a88a1
-  xudp: true
+- name: 广播机房 10
+  password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
+  port: 50017
+  server: zz.9966663.xyz
+  skip-cert-verify: true
+  sni: do-vnyear.9966663.xyz
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -784,6 +354,26 @@ proxies:
   type: vless
   udp: true
   uuid: a4ed2e0b-85d9-4a13-884c-eae6bb4f1800
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 广播机房 17
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: f4b4a6365558ea2e
+  server: 89.169.128.105
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c5c4ccc-b502-42cb-8c42-cfa714db4767
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -812,12 +402,6 @@ proxies:
   port: 38388
   server: 103.186.155.223
   type: ss
-- name: 原生疑似家宽高风险黑名单 01
-  port: 1080
-  server: 193.233.254.8
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
 - name: 原生疑似家宽高风险黑名单 02
   port: 1080
   server: 193.233.254.7
@@ -831,13 +415,6 @@ proxies:
   skip-cert-verify: true
   type: socks5
   username: ''
-- name: 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
-  password: ''
-  port: 1080
-  server: 147.45.124.194
-  skip-cert-verify: true
-  type: socks5
-  username: ''
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 🇻🇳VN²_9|2.1MB/s|GPT|X 01
@@ -845,6 +422,31 @@ proxies:
   port: 38388
   server: 103.186.154.203
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_7|6.2MB/s|X 01
+  network: ws
+  port: 443
+  server: 69.84.182.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- name: 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
+  password: ''
+  port: 8888
+  server: 178.128.212.127
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: 🇰🇷KR²_2|2.1MB/s|X|History 01
   port: 1090
   server: 121.169.46.116
@@ -869,54 +471,19 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -926,24 +493,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -953,54 +519,19 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1010,24 +541,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1035,54 +565,19 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1092,24 +587,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1119,54 +613,19 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1176,24 +635,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1201,54 +659,19 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1258,24 +681,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1283,54 +705,19 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1340,24 +727,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1365,54 +751,19 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1422,24 +773,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1447,54 +797,19 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1504,24 +819,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1530,54 +844,19 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1587,24 +866,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1613,54 +891,19 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1670,24 +913,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
@@ -1695,54 +937,19 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 英国节点
+  - 美國
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
+  - 俄羅斯
   - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
-  - 🇫🇮FI_186
-  - 🇫🇮FI_67
-  - 🇫🇮FI_92
-  - 🇫🇮FI_110
-  - 🇫🇮FI_111
-  - 🇫🇮FI_125
-  - 🇫🇮FI_139
-  - 🇫🇮FI_173
-  - 🇫🇮FI_207
-  - 🇫🇮FI_4
-  - 🇫🇮FI_13
-  - 🇫🇮FI_14
-  - 🇫🇮FI_27
-  - 🇫🇮FI_43
-  - 🇫🇮FI_64
-  - 🇫🇮FI_96
-  - 🇫🇮FI_151
-  - 🇫🇮FI_1
-  - 🇫🇮FI_18
-  - 🇫🇮FI_24
-  - 🇫🇮FI_82
-  - 🇫🇮FI_90
-  - 🇫🇮FI_108
-  - 🇫🇮FI_115
-  - 🇫🇮FI_161
-  - 🇫🇮FI_185
-  - 🇫🇮FI_193
-  - 🇫🇮FI_228
-  - 🇫🇮FI_0
-  - 🇫🇮FI_7
-  - 🇫🇮FI_11
-  - 🇫🇮FI_17
-  - 🇫🇮FI_25
-  - 🇫🇮FI_35
-  - 🇫🇮FI_42
-  - 🇫🇮FI_54
+  - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇻🇳VN²_1|0.5MB/s|GPT⁺|X|History 01
-  - 原生机房 01
   - 原生机房 02
   - 原生机房 05
   - 原生机房 11
@@ -1752,24 +959,23 @@ proxy-groups:
   - 原生机房 15
   - 原生机房 18
   - 原生机房 19
-  - 原生机房 20
   - 原生机房 22
   - 原生机房 23
-  - 原生机房 24
-  - 广播商宽 01
+  - 广播商宽 03
   - 广播商宽 05
-  - 广播机房 01
+  - 广播机房 02
   - 广播机房 04
   - 广播机房 06
-  - 广播机房 07
+  - 广播机房 10
   - 广播机房 13
+  - 广播机房 17
   - 🇭🇺HU²_1|2.6MB/s|GPT|X 01
   - 🇻🇳VN²_6|0.9MB/s|GPT|X|History 01
-  - 原生疑似家宽高风险黑名单 01
   - 原生疑似家宽高风险黑名单 02
   - 🇷🇺RU²_4|5.5MB/s|7%|X|History 01
-  - 🇷🇺RU²_5|0.7MB/s|0%|X|History 01
   - 🇻🇳VN²_9|2.1MB/s|GPT|X 01
+  - 🇺🇸US²_7|6.2MB/s|X 01
+  - 🇸🇬SG²_2|2.0MB/s|GPT⁺|X|History 01
   - 🇰🇷KR²_2|2.1MB/s|X|History 01
   - 🇻🇳VN²_24|1.8MB/s|GPT⁺|YT|X|History 01
   - 🇳🇱NL²_3|4.8MB/s|18%|GPT⁺|X|History 01
