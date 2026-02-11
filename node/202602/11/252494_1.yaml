@@ -21,15 +21,18 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 美國
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 6dfbef3b-f718-4053-806f-c9657e2fd943
-  port: 12345
-  server: us.jljd.xyz
-  skip-cert-verify: false
-  sni: us.jljd.xyz
-  type: hysteria2
+- name: 🇭🇰HK_4
+  network: ws
+  port: 47790
+  server: 36.50.90.241
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 法国节点
@@ -112,18 +115,6 @@ proxies:
   tls: true
   type: vless
   uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇷_GR_希腊
-  port: 443
-  reality-opts:
-    public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
-    short-id: b5e0cd9ca194c0a5
-  server: 185.234.57.207
-  servername: teamdocs.su
-  tls: true
-  type: vless
-  uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
 - name: 🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 80
@@ -135,40 +126,6 @@ proxies:
     headers:
       Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
     path: /?ed
-- name: 🇸🇬SG_7
-  network: ws
-  port: 443
-  server: 128.199.216.53
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_146
-  network: ws
-  port: 80
-  server: 151.101.76.146
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_155
-  network: ws
-  port: 80
-  server: 151.101.76.155
-  tls: false
-  type: vless
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
-  ws-opts:
-    headers:
-      Host: adspeedx23.global.ssl.fastly.net
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - name: 🇫🇮FI_186
   network: ws
   port: 80
@@ -235,10 +192,54 @@ proxies:
     headers:
       Host: adspeedx23.global.ssl.fastly.net
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇫🇮FI_136
+- name: 🇫🇮FI_126
   network: ws
   port: 80
-  server: 151.101.76.136
+  server: 151.101.76.126
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_139
+  network: ws
+  port: 80
+  server: 151.101.76.139
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_173
+  network: ws
+  port: 80
+  server: 151.101.76.173
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_207
+  network: ws
+  port: 80
+  server: 151.101.76.207
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_4
+  network: ws
+  port: 80
+  server: 151.101.76.4
   tls: false
   type: vless
   uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
@@ -294,6 +295,116 @@ proxies:
   network: ws
   port: 80
   server: 151.101.76.64
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_96
+  network: ws
+  port: 80
+  server: 151.101.76.96
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_151
+  network: ws
+  port: 80
+  server: 151.101.76.151
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_1
+  network: ws
+  port: 80
+  server: 151.101.76.1
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_18
+  network: ws
+  port: 80
+  server: 151.101.76.18
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_24
+  network: ws
+  port: 80
+  server: 151.101.76.24
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_82
+  network: ws
+  port: 80
+  server: 151.101.76.82
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_90
+  network: ws
+  port: 80
+  server: 151.101.76.90
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_108
+  network: ws
+  port: 80
+  server: 151.101.76.108
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_115
+  network: ws
+  port: 80
+  server: 151.101.76.115
+  tls: false
+  type: vless
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 🇫🇮FI_161
+  network: ws
+  port: 80
+  server: 151.101.76.161
   tls: false
   type: vless
   uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
@@ -438,35 +549,56 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 🇺🇸_US_美国_3
+  network: ws
+  port: 2052
+  server: 172.66.128.70
+  tls: false
+  type: vless
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  ws-opts:
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+    path: /?ed
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -480,6 +612,7 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
   use:
   - nodepool-provider
@@ -487,30 +620,40 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -524,35 +667,46 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -566,6 +720,7 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -573,30 +728,40 @@ proxy-groups:
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -610,35 +775,46 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -652,35 +828,46 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -694,35 +881,46 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -736,35 +934,46 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -778,36 +987,47 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -821,36 +1041,47 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -864,35 +1095,46 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
   - 英国节点
-  - 美國
+  - 🇭🇰HK_4
   - 法国节点
   - 美国节点_2
   - 美国_2
   - 美国节点_10
   - 美国节点_16
   - 俄羅斯
-  - 🇬🇷_GR_希腊
   - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇸🇬SG_7
-  - 🇫🇮FI_146
-  - 🇫🇮FI_155
   - 🇫🇮FI_186
   - 🇫🇮FI_67
   - 🇫🇮FI_92
   - 🇫🇮FI_110
   - 🇫🇮FI_111
   - 🇫🇮FI_125
-  - 🇫🇮FI_136
+  - 🇫🇮FI_126
+  - 🇫🇮FI_139
+  - 🇫🇮FI_173
+  - 🇫🇮FI_207
+  - 🇫🇮FI_4
   - 🇫🇮FI_13
   - 🇫🇮FI_14
   - 🇫🇮FI_27
   - 🇫🇮FI_43
   - 🇫🇮FI_64
+  - 🇫🇮FI_96
+  - 🇫🇮FI_151
+  - 🇫🇮FI_1
+  - 🇫🇮FI_18
+  - 🇫🇮FI_24
+  - 🇫🇮FI_82
+  - 🇫🇮FI_90
+  - 🇫🇮FI_108
+  - 🇫🇮FI_115
+  - 🇫🇮FI_161
   - 🇫🇮FI_185
   - 🇫🇮FI_193
   - 🇫🇮FI_228
@@ -906,6 +1148,7 @@ proxy-groups:
   - 🇫🇮FI_54
   - 🇭🇰 香港|@stairnode
   - 🇭🇰 香港4|@stairnode
+  - 🇺🇸_US_美国_3
   type: select
 proxy-providers:
   nodepool-provider:
