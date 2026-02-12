@@ -178,6 +178,18 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- name: 🇳🇱NL_1
+  network: ws
+  port: 443
+  server: 176.222.52.219
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
 - name: 🇯🇵JP_2
   network: ws
   port: 2096
@@ -306,10 +318,10 @@ proxies:
     headers:
       Host: sni.jpmj.dev
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇰🇷KR_3
+- name: 🇳🇱荷兰节点
   network: ws
-  port: 8443
-  server: 129.154.222.63
+  port: 443
+  server: 77.105.142.168
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -317,79 +329,7 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 俄羅斯
-  port: 8443
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
-  server: 78.153.139.68
-  servername: images.apple.com
-  tls: true
-  type: vless
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-- name: 🇸🇬SG_1
-  network: ws
-  port: 443
-  server: 172.236.154.50
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇰🇷KR_4
-  network: ws
-  port: 15800
-  server: 129.154.223.89
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇸🇬SG_2
-  network: ws
-  port: 443
-  server: 172.237.73.24
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇰🇷KR_5
-  network: ws
-  port: 30443
-  server: 131.186.26.129
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 🇭🇰HK_8
-  network: ws
-  port: 443
-  server: 47.82.92.52
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
 - name: 🇰🇷KR_6
   network: ws
   port: 18097
@@ -564,17 +504,6 @@ proxies:
     headers:
       Host: ovhwuxian.pai50288.uk
     path: /57ba2ab1
-- name: 🇺🇸 美国 08
-  network: ws
-  port: 2052
-  server: 172.66.128.70
-  tls: false
-  type: vless
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  ws-opts:
-    headers:
-      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-    path: /?ed
 - name: 🇯🇵 日本 02
   password: 5fb072e0ddd631cf66cf752b09210480
   port: 3423
@@ -589,47 +518,32 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 04
-  network: ws
-  port: 443
-  server: 128.199.128.117
-  servername: sg.dalxy.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-  ws-opts:
-    headers:
-      Host: sg.dalxy.eu.org
-    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 美国新加坡 01
-  network: ws
-  port: 443
-  server: 172.236.154.50
-  servername: sg.dalxy.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-  ws-opts:
-    headers:
-      Host: sg.dalxy.eu.org
-    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国 01
+  name: 阿塞拜疆拉脱维亚 01
+  network: ws
   port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 37.120.167.164
-  servername: live.com
+  server: 46.32.184.75
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
-  uuid: aec54bed-2384-4b85-8372-432597aa5518
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@@jdfxq
+- client-fingerprint: chrome
+  name: 🇺🇸 比利时美国 01
+  network: ws
+  port: 8443
+  server: 143.20.213.206
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - name: 🇺🇸 美国荷兰 01
   network: ws
   port: 2053
@@ -732,25 +646,25 @@ proxies:
   port: 38388
   server: 103.186.154.12
   type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 原生机房 05
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 原生机房 06
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+    short-id: b8cf9578640a9edf
+  server: 185.39.206.226
+  servername: eh.vk.com
+  tls: true
+  type: vless
   udp: true
-  uuid: nasnet
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -854,6 +768,21 @@ proxies:
   port: 38388
   server: 103.186.155.126
   type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 广播机房 02
+  network: tcp
+  port: 443
+  server: 20.218.137.249
+  servername: jina-20218137249-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: jina
+  xudp: true
 - name: 广播机房 03
   password: test.+
   port: 30446
@@ -943,6 +872,20 @@ proxies:
         like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /assignment
 - cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.186
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.108
+  type: ss
+- cipher: aes-256-cfb
   country: 🇨🇳 CN
   name: 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -954,6 +897,81 @@ proxies:
   server: 121.169.46.116
   type: socks5
   username: Og%3D%3D
+- alterId: 0
+  cipher: auto
+  country: 🇱🇹LT
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  network: ws
+  port: 443
+  server: 89.116.46.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.4
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.143
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.84
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  network: ws
+  port: 443
+  server: 213.241.198.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  network: ws
+  port: 443
+  server: 147.185.161.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
@@ -970,6 +988,31 @@ proxies:
   network: ws
   port: 443
   server: 45.40.150.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.153
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_8|6.5MB/s|X 01
+  network: ws
+  port: 443
+  server: 166.62.110.199
   servername: ous3.dean52.top
   skip-cert-verify: true
   tls: true
@@ -1058,39 +1101,6 @@ proxies:
   port: 38388
   server: 103.186.154.227
   type: ss
-- name: 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  password: ''
-  port: 5555
-  server: 146.19.254.101
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.145
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.59
-  type: ss
 proxy-groups:
 - name: 🚀 全部节点
   proxies:
@@ -1109,6 +1119,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1119,13 +1130,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1142,12 +1147,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1158,7 +1161,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1171,6 +1174,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1182,19 +1186,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
   use:
   - nodepool-provider
@@ -1215,6 +1225,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1225,13 +1236,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1248,12 +1253,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1264,7 +1267,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1277,6 +1280,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1288,19 +1292,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -1319,6 +1329,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1329,13 +1340,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1352,12 +1357,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1368,7 +1371,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1381,6 +1384,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1392,19 +1396,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1425,6 +1435,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1435,13 +1446,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1458,12 +1463,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1474,7 +1477,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1487,6 +1490,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1498,19 +1502,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: 📲 电报信息
   proxies:
@@ -1529,6 +1539,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1539,13 +1550,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1562,12 +1567,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1578,7 +1581,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1591,6 +1594,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1602,19 +1606,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -1633,6 +1643,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1643,13 +1654,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1666,12 +1671,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1682,7 +1685,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1695,6 +1698,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1706,19 +1710,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -1737,6 +1747,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1747,13 +1758,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1770,12 +1775,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1786,7 +1789,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1799,6 +1802,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1810,19 +1814,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1841,6 +1851,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1851,13 +1862,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1874,12 +1879,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1890,7 +1893,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -1903,6 +1906,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -1914,19 +1918,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: 🛑 全球拦截
   proxies:
@@ -1946,6 +1956,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -1956,13 +1967,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -1979,12 +1984,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -1995,7 +1998,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -2008,6 +2011,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -2019,19 +2023,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: 🍃 应用净化
   proxies:
@@ -2051,6 +2061,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -2061,13 +2072,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -2084,12 +2089,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -2100,7 +2103,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -2113,6 +2116,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -2124,19 +2128,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 - name: 🐟 漏网之鱼
   proxies:
@@ -2155,6 +2165,7 @@ proxy-groups:
   - 🇫🇷FR_1
   - 法国节点
   - 🇳🇱NL
+  - 🇳🇱NL_1
   - 🇯🇵JP_2
   - 🇸🇬SG
   - 美国节点_2
@@ -2165,13 +2176,7 @@ proxy-groups:
   - 美国节点_16
   - 🇭🇰HK_7
   - 🇯🇵JP_4
-  - 🇰🇷KR_3
-  - 俄羅斯
-  - 🇸🇬SG_1
-  - 🇰🇷KR_4
-  - 🇸🇬SG_2
-  - 🇰🇷KR_5
-  - 🇭🇰HK_8
+  - 🇳🇱荷兰节点
   - 🇰🇷KR_6
   - 🇰🇷KR_7
   - 🇬🇷_GR_希腊
@@ -2188,12 +2193,10 @@ proxy-groups:
   - 🇺🇸 美国 02
   - 🇺🇸 美国 06
   - 🇺🇸 美国 07
-  - 🇺🇸 美国 08
   - 🇯🇵 日本 02
   - 🇸🇬 新加坡 01
-  - 🇸🇬 新加坡 04
-  - 🇸🇬 美国新加坡 01
-  - 德国 01
+  - 阿塞拜疆拉脱维亚 01
+  - 🇺🇸 比利时美国 01
   - 🇺🇸 美国荷兰 01
   - 🇻🇳VN²_1|2.1MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_2|1.7MB/s|GPT⁺|GM|YT|X|History 01
@@ -2204,7 +2207,7 @@ proxy-groups:
   - 原生机房 02
   - 原生机房 03
   - 原生机房 04
-  - 原生机房 05
+  - 原生机房 06
   - 原生机房 07
   - 原生机房 08
   - 原生机房 09
@@ -2217,6 +2220,7 @@ proxy-groups:
   - 原生机房 18
   - 原生机房 20
   - 原生机房 22
+  - 广播机房 02
   - 广播机房 03
   - 🇻🇳VN²_4|1.8MB/s|GPT⁺|GM|X|Succeed 01
   - 🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|X|History 01
@@ -2228,19 +2232,25 @@ proxy-groups:
   - 🇻🇳VN²_12|1.4MB/s|GPT⁺|X|History 01
   - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
   - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
   - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
   - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
   - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
   - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
   - 🇺🇸US²_9|6.7MB/s|GPT|X 01
   - 🇺🇸US²_10|1.1MB/s|X 01
   - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
   - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
   - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
-  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇸🇬SG²_3|3.6MB/s|0%|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   type: select
 proxy-providers:
   nodepool-provider:
