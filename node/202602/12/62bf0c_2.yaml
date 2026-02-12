@@ -1,0 +1,1259 @@
+allow-lan: true
+dns:
+  enable: true
+  fallback:
+  - https://dns.pub/dns-query
+  - https://doh.pub/dns-query
+  nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+external-controller: 127.0.0.1:9090
+log-level: debug
+mode: Rule
+port: 7892
+proxies:
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.34
+  type: ss
+- client-fingerprint: chrome
+  name: 🇳🇱NL²_2|8.2MB/s|X|History 01
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.186
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.108
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.103
+  type: ss
+- name: 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- alterId: 0
+  cipher: auto
+  country: 🇱🇹LT
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  network: ws
+  port: 443
+  server: 89.116.46.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.4
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.143
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.84
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  network: ws
+  port: 443
+  server: 213.241.198.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  network: ws
+  port: 443
+  server: 147.185.161.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.207
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_7|6.8MB/s|X 01
+  network: ws
+  port: 443
+  server: 45.40.150.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.153
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_8|6.5MB/s|X 01
+  network: ws
+  port: 443
+  server: 166.62.110.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  network: ws
+  port: 443
+  server: 166.62.113.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_10|1.1MB/s|X 01
+  network: ws
+  port: 443
+  server: 185.193.29.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇺🇦UA
+  h2-opts: {}
+  http-opts: {}
+  name: 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  network: ws
+  port: 443
+  server: 45.67.215.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  network: ws
+  port: 443
+  server: 192.200.160.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.227
+  type: ss
+- name: 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  password: ''
+  port: 5555
+  server: 146.19.254.101
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  password: ''
+  port: 1080
+  server: 5.255.117.127
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.145
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.59
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.46
+  type: ss
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇫🇷 FR SS-01 | free-nodes
+  password: etU8/fvCVPaqmKkXV6bX8v8ULI4Fch+EKvg19MoETLk=
+  port: 8390
+  server: 57.131.41.129
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR SS-02 | free-nodes
+  password: 52671647af0cffa0
+  port: 11201
+  server: 38.242.222.183
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-03 | free-nodes
+  password: 6OVeg18ylsOQMOvWVVfddO
+  port: 443
+  server: 194.150.220.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-04 | free-nodes
+  password: 94aae0510188e8c5
+  port: 11201
+  server: 141.95.106.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-05 | free-nodes
+  password: 9d97433688e7efd5
+  port: 44235
+  server: 163.171.206.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-06 | free-nodes
+  password: 1d1bc54689ed4b75
+  port: 26736
+  server: 119.159.245.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-07 | free-nodes
+  password: 29acd960ab8e3408
+  port: 46727
+  server: 157.185.173.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-08 | free-nodes
+  password: 2e5c75c35d7ee929
+  port: 19702
+  server: 163.171.213.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-09 | free-nodes
+  password: 37ef4f029f1ac0ac
+  port: 11201
+  server: 141.95.105.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-10 | free-nodes
+  password: 3bb08205cb6c8af0
+  port: 28026
+  server: 38.54.97.247
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-12 | free-nodes
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 37.143.129.98
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13 | free-nodes
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: staging.lastilhame.monster
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-16 | free-nodes
+  password: bSFMvNLHapp4ZrcGIXy9Vt
+  port: 43248
+  server: 5.181.2.73
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-17 | free-nodes
+  password: eafad96826c79ddd
+  port: 47394
+  server: 163.171.137.76
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-20 | free-nodes
+  password: i9lip2dJ8kV4wJQ0pJuRr6
+  port: 443
+  server: 185.100.159.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP SS-21 | free-nodes
+  password: ljqdalu13..
+  port: 8319
+  server: 3.112.130.53
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG SS-22 | free-nodes
+  password: ljqdalu13..
+  port: 8313
+  server: 3.1.195.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-23 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-24 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-25 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-26 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.89
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 US SS-27 | free-nodes
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
+  type: ss
+- cipher: aes-256-gcm
+  name: 未知 SS-29 | free-nodes
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 156.244.8.155
+  type: ss
+- name: 🇬🇧 GB TROJAN-31 | free-nodes
+  network: ws
+  password: 76yTlnTIsjCTlmqnUJ5Tzc1rM
+  port: 443
+  server: hl-freedom-0.undef.network
+  sni: hl-freedom-0.undef.network
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hl-freedom-0.undef.network
+    path: /f2fc2a1f
+- name: 🇬🇧 GB TROJAN-32 | free-nodes
+  password: 7LBbob9IutFObLxLf9Svc1HaV
+  port: 443
+  server: 45.89.111.142
+  sni: hl-freedom-1.undef.network
+  type: trojan
+- name: TR TROJAN-36 | free-nodes
+  network: ws
+  password: T9BpZIVMNv
+  port: 8443
+  server: v1.dabache.top
+  sni: sweden.vmaxpanel.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sweden.vmaxpanel.com
+    path: /amd
+- name: TR TROJAN-38 | free-nodes
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+proxy-groups:
+- name: 🚀 全部节点
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+  use:
+  - nodepool-provider
+- name: 🚀 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  tolerance: 50
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🌍 国外媒体
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: 📲 电报信息
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: Ⓜ️ 微软服务
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: 🍎 苹果服务
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: 🍃 应用净化
+  proxies:
+  - REJECT
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - DIRECT
+  - 🇪🇸ES²_1|1.5MB/s|GPT|X|History 01
+  - 🇻🇳VN²_14|1.0MB/s|GPT⁺|X|History 01
+  - 🇳🇱NL²_2|8.2MB/s|X|History 01
+  - 🇻🇳VN²_16|1.7MB/s|GPT⁺|GM|YT-US|X|History 01
+  - 🇻🇳VN²_18|1.5MB/s|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_19|1.7MB/s|GPT|GM|X|History 01
+  - 🇰🇷KR²_2|2.2MB/s|4%|GPT⁺|X|Succeed 01
+  - 🇺🇸US²_3|1.5MB/s|GPT|X 01
+  - 🇻🇳VN²_20|2.2MB/s|GPT⁺|GM|YT|X|Succeed 01
+  - 🇻🇳VN²_21|1.7MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇻🇳VN²_22|0.9MB/s|GPT⁺|X|History 01
+  - 🇺🇸US²_5|1.2MB/s|4%|GPT|NF|X 01
+  - 🇺🇸US²_6|0.7MB/s|GPT|X 01
+  - 🇻🇳VN²_24|1.6MB/s|GPT⁺|GM|X|History 01
+  - 🇺🇸US²_7|6.8MB/s|X 01
+  - 🇻🇳VN²_25|1.1MB/s|GPT⁺|GM|YT-US|X 01
+  - 🇺🇸US²_8|6.5MB/s|X 01
+  - 🇺🇸US²_9|6.7MB/s|GPT|X 01
+  - 🇺🇸US²_10|1.1MB/s|X 01
+  - 🏴‍☠_2Relay_🇺🇦UA-🇺🇸US_940|6.5MB/s|X 01
+  - 🏴‍☠_3Relay_🇺🇸US-🇺🇸US_1180|6.7MB/s|X 01
+  - 🇻🇳VN²_26|1.9MB/s|GPT⁺|GM|YT|X|History 01
+  - 🇳🇱NL²_4|1.6MB/s|GPT⁺|X 01
+  - 🇳🇱NL²_5|5.0MB/s|18%|GPT⁺|X|Succeed 01
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-16 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
+  - TR TROJAN-38 | free-nodes
+  type: select
+proxy-providers:
+  nodepool-provider:
+    health-check:
+      enable: true
+      interval: 10
+      lazy: false
+      timeout: 5000
+      url: http://www.gstatic.com/generate_204
+    interval: 10
+    path: ./download_nodes/_Mergingfile.yaml
+    type: file
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+- IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+- IP-CIDR6,::1/128,DIRECT,no-resolve
+- IP-CIDR6,fc00::/7,DIRECT,no-resolve
+- IP-CIDR6,fe80::/10,DIRECT,no-resolve
+- IP-CIDR6,fd00::/8,DIRECT,no-resolve
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,bilibili,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jd.hk,DIRECT
+- DOMAIN-SUFFIX,360buy.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidubce.com,DIRECT
+- DOMAIN-SUFFIX,baidupcs.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdurl.net,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,weibo.cn,DIRECT
+- DOMAIN-SUFFIX,wbimg.com,DIRECT
+- DOMAIN-SUFFIX,weibocdn.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qpic.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.cn,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,wechat.com,DIRECT
+- DOMAIN-SUFFIX,weixin.com,DIRECT
+- DOMAIN-SUFFIX,google.com,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.hk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.tw,🌍 国外媒体
+- DOMAIN-SUFFIX,google.com.sg,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,google.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,google.de,🌍 国外媒体
+- DOMAIN-SUFFIX,google.fr,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gstatic.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googleapis.cn,🌍 国外媒体
+- DOMAIN-SUFFIX,googleusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
+- DOMAIN-SUFFIX,youtube-nocookie.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,ggpht.com,🌍 国外媒体
+- DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.com,🌍 国外媒体
+- DOMAIN-SUFFIX,facebook.net,🌍 国外媒体
+- DOMAIN-SUFFIX,fbcdn.net,🌍 国外媒体
+- DOMAIN-SUFFIX,tfbnw.net,🌍 国外媒体
+- DOMAIN-SUFFIX,twitter.com,🌍 国外媒体
+- DOMAIN-SUFFIX,twimg.com,🌍 国外媒体
+- DOMAIN-SUFFIX,t.co,🌍 国外媒体
+- DOMAIN-SUFFIX,instagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,cdninstagram.com,🌍 国外媒体
+- DOMAIN-SUFFIX,whatsapp.com,📲 电报信息
+- DOMAIN-SUFFIX,whatsapp.net,📲 电报信息
+- DOMAIN-SUFFIX,telegram.org,📲 电报信息
+- DOMAIN-SUFFIX,telegram.me,📲 电报信息
+- DOMAIN-SUFFIX,t.me,📲 电报信息
+- DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+- DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+- DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
+- DOMAIN-SUFFIX,nflxext.net,🌍 国外媒体
+- DOMAIN-SUFFIX,netflix.com.edgesuite.net,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.co.uk,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.de,🌍 国外媒体
+- DOMAIN-SUFFIX,amazon.fr,🌍 国外媒体
+- DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoftstore.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
+- DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+- DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+- DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
+- DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+- DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
+- DOMAIN-SUFFIX,me.com,🍎 苹果服务
+- DOMAIN-SUFFIX,github.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubusercontent.com,🌍 国外媒体
+- DOMAIN-SUFFIX,githubassets.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab.com,🌍 国外媒体
+- DOMAIN-SUFFIX,gitlab-static.net,🌍 国外媒体
+- DOMAIN-SUFFIX,stackoverflow.com,🌍 国外媒体
+- DOMAIN-SUFFIX,azureedge.net,🌍 国外媒体
+- DOMAIN-SUFFIX,azure.com,🌍 国外媒体
+- DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+- MATCH,🚀 节点选择
+socks-port: 7893

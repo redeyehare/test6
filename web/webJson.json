@@ -8,7 +8,7 @@
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "Entry",
   "date": "20260212",
-  "time": "12:25:02",
+  "time": "12:55:06",
   "code": "6305.7770",
   "assets": [
     {
@@ -22,6 +22,12 @@
       "describe": "第62bf0c_1组",
       "kind": "#",
       "url": "2cvHoiSpn/vX1sG3MPLdsZ/bw7Y54J67w9icvDj31fuDj4HkZ6Gf5YOQheA19YC37o6dqzb+3A=="
+    },
+    {
+      "type": "clash",
+      "describe": "第62bf0c_2组",
+      "kind": "#",
+      "url": "2cvHoiSpn/vX1sG3MPLdsZ/bw7Y54J67w9icvDj31fuDj4HkZ6Gf5YOQheA19YC37o2dqzb+3A=="
     },
     {
       "type": "clash",
