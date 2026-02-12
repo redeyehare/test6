@@ -13,28 +13,22 @@ mode: Rule
 port: 7892
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-10 | free-nodes
-  password: 3bb08205cb6c8af0
-  port: 28026
-  server: 38.54.97.247
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 未知 SS-12 | free-nodes
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 37.143.129.98
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13 | free-nodes
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: staging.lastilhame.monster
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 未知 SS-15 | free-nodes
   password: aiXO0FnjYHg6ZKJAPohBVW
   port: 16673
   server: 185.253.116.95
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-16 | free-nodes
-  password: bSFMvNLHapp4ZrcGIXy9Vt
-  port: 43248
-  server: 5.181.2.73
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-17 | free-nodes
@@ -61,6 +55,12 @@ proxies:
   server: 3.1.195.148
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 未知 SS-23 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 未知 SS-24 | free-nodes
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -72,11 +72,23 @@ proxies:
   port: 8080
   server: 82.38.31.82
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-26 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.89
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇩🇪 DE SS-28 | free-nodes
+  name: 🇺🇸 US SS-27 | free-nodes
   password: 8JCsPssfgS8tiRwiMlhARg==
   port: 12000
-  server: 57.128.214.100
+  server: 144.217.164.29
+  type: ss
+- cipher: aes-256-gcm
+  name: 未知 SS-29 | free-nodes
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 156.244.8.155
   type: ss
 - name: 🇬🇧 GB TROJAN-31 | free-nodes
   network: ws
@@ -95,6 +107,17 @@ proxies:
   server: 45.89.111.142
   sni: hl-freedom-1.undef.network
   type: trojan
+- name: TR TROJAN-36 | free-nodes
+  network: ws
+  password: T9BpZIVMNv
+  port: 8443
+  server: v1.dabache.top
+  sni: sweden.vmaxpanel.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sweden.vmaxpanel.com
+    path: /amd
 - name: TR TROJAN-38 | free-nodes
   password: qmBSKnAl6LYi9=z23Rs.Z
   port: 28099
@@ -105,19 +128,22 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
   use:
@@ -125,37 +151,43 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   tolerance: 50
   type: url-test
@@ -163,147 +195,171 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 未知 SS-10 | free-nodes
   - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
-  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
   - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-23 | free-nodes
   - 未知 SS-24 | free-nodes
   - 未知 SS-25 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
+  - 未知 SS-26 | free-nodes
+  - 🇺🇸 US SS-27 | free-nodes
+  - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
+  - TR TROJAN-36 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 proxy-providers:
