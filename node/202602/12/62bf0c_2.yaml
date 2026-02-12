@@ -12,6 +12,125 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR SS-02 | free-nodes
+  password: 52671647af0cffa0
+  port: 11201
+  server: 38.242.222.183
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-03 | free-nodes
+  password: 6OVeg18ylsOQMOvWVVfddO
+  port: 443
+  server: 194.150.220.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-04 | free-nodes
+  password: 94aae0510188e8c5
+  port: 11201
+  server: 141.95.106.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-05 | free-nodes
+  password: 9d97433688e7efd5
+  port: 44235
+  server: 163.171.206.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-06 | free-nodes
+  password: 1d1bc54689ed4b75
+  port: 26736
+  server: 119.159.245.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-07 | free-nodes
+  password: 29acd960ab8e3408
+  port: 46727
+  server: 157.185.173.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-08 | free-nodes
+  password: 2e5c75c35d7ee929
+  port: 19702
+  server: 163.171.213.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-09 | free-nodes
+  password: 37ef4f029f1ac0ac
+  port: 11201
+  server: 141.95.105.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-10 | free-nodes
+  password: 3bb08205cb6c8af0
+  port: 28026
+  server: 38.54.97.247
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-12 | free-nodes
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 37.143.129.98
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13 | free-nodes
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: staging.lastilhame.monster
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-17 | free-nodes
+  password: eafad96826c79ddd
+  port: 47394
+  server: 163.171.137.76
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-20 | free-nodes
+  password: i9lip2dJ8kV4wJQ0pJuRr6
+  port: 443
+  server: 185.100.159.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP SS-21 | free-nodes
+  password: ljqdalu13..
+  port: 8319
+  server: 3.112.130.53
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG SS-22 | free-nodes
+  password: ljqdalu13..
+  port: 8313
+  server: 3.1.195.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-24 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-25 | free-nodes
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.82
+  type: ss
+- name: 🇬🇧 GB TROJAN-31 | free-nodes
+  network: ws
+  password: 76yTlnTIsjCTlmqnUJ5Tzc1rM
+  port: 443
+  server: hl-freedom-0.undef.network
+  sni: hl-freedom-0.undef.network
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hl-freedom-0.undef.network
+    path: /f2fc2a1f
+- name: 🇬🇧 GB TROJAN-32 | free-nodes
+  password: 7LBbob9IutFObLxLf9Svc1HaV
+  port: 443
+  server: 45.89.111.142
+  sni: hl-freedom-1.undef.network
+  type: trojan
 - name: TR TROJAN-38 | free-nodes
   password: qmBSKnAl6LYi9=z23Rs.Z
   port: 28099
@@ -22,6 +141,25 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
   use:
@@ -29,11 +167,49 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   tolerance: 50
   type: url-test
@@ -41,43 +217,195 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🛑 全球拦截
   proxies:
   - REJECT
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🍃 应用净化
   proxies:
   - REJECT
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-17 | free-nodes
+  - 未知 SS-20 | free-nodes
+  - 🇯🇵 JP SS-21 | free-nodes
+  - 🇸🇬 SG SS-22 | free-nodes
+  - 未知 SS-24 | free-nodes
+  - 未知 SS-25 | free-nodes
+  - 🇬🇧 GB TROJAN-31 | free-nodes
+  - 🇬🇧 GB TROJAN-32 | free-nodes
   - TR TROJAN-38 | free-nodes
   type: select
 proxy-providers:
