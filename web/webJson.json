@@ -8,7 +8,7 @@
   "update_url": "https://firegame.dpdns.org/hotupdate/",
   "Entry_Scene": "Entry",
   "date": "20260213",
-  "time": "11:36:48",
+  "time": "12:06:56",
   "code": "6697.0111",
   "assets": [
     {
@@ -19,45 +19,15 @@
     },
     {
       "type": "clash",
-      "describe": "第62bf0c_1组",
-      "kind": "#",
-      "url": "L36Ma6py59EhY4p+vimlm2luiH+3O+aRNW3XdbYsrdF1Osot6Xrnz3Ulzim7LvidGDvWYrglpA=="
-    },
-    {
-      "type": "clash",
-      "describe": "第62bf0c_2组",
-      "kind": "#",
-      "url": "L36Ma6py59EhY4p+vimlm2luiH+3O+aRNW3XdbYsrdF1Osot6Xrnz3Ulzim7LvidGDjWYrglpA=="
-    },
-    {
-      "type": "clash",
-      "describe": "第0组",
+      "describe": "第20260213组",
       "kind": "@",
-      "url": "https://firegame.dpdns.org/node/202602/12/d/0-20260211.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第2组",
-      "kind": "@",
-      "url": "https://firegame.dpdns.org/node/202602/12/d/2-20260211.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第20260212组",
-      "kind": "@",
-      "url": "https://firegame.dpdns.org/node/202602/12/d/20260212-clash.yaml"
+      "url": "https://firegame.dpdns.org/node/202602/13/d/20260213-clash.yaml"
     },
     {
       "type": "clash",
       "describe": "第3组",
       "kind": "@",
-      "url": "https://firegame.dpdns.org/node/202602/12/d/3-20260211.yaml"
-    },
-    {
-      "type": "clash",
-      "describe": "第4组",
-      "kind": "@",
-      "url": "https://firegame.dpdns.org/node/202602/12/d/4-20260211.yaml"
+      "url": "https://firegame.dpdns.org/node/202602/13/d/3-20260213.yaml"
     }
   ],
   "shops": [
