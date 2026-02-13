@@ -13,20 +13,6 @@ mode: Rule
 port: 7892
 proxies:
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.145
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.59
-  type: ss
-- cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -92,12 +78,6 @@ proxies:
   password: 3bb08205cb6c8af0
   port: 28026
   server: 38.54.97.247
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-11 | free-nodes
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 193.135.174.135
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-12 | free-nodes
@@ -178,12 +158,6 @@ proxies:
   server: 144.217.164.29
   type: ss
 - cipher: aes-256-gcm
-  name: 🇩🇪 DE SS-28 | free-nodes
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 57.128.214.100
-  type: ss
-- cipher: aes-256-gcm
   name: 未知 SS-29 | free-nodes
   password: g5MeD6Ft3CWlJId
   port: 5004
@@ -227,8 +201,6 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -240,7 +212,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -254,7 +225,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -266,8 +236,6 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -279,7 +247,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -293,7 +260,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -303,8 +269,6 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -316,7 +280,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -330,7 +293,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -342,8 +304,6 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -355,7 +315,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -369,7 +328,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -379,8 +337,6 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -392,7 +348,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -406,7 +361,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -416,8 +370,6 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -429,7 +381,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -443,7 +394,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -453,8 +403,6 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -466,7 +414,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -480,7 +427,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -490,8 +436,6 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -503,7 +447,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -517,7 +460,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -528,8 +470,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -541,7 +481,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -555,7 +494,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -566,8 +504,6 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -579,7 +515,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -593,7 +528,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
@@ -603,8 +537,6 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
-  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
-  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
   - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
   - 🇫🇷 FR SS-01 | free-nodes
   - 🇫🇷 FR SS-02 | free-nodes
@@ -616,7 +548,6 @@ proxy-groups:
   - 未知 SS-08 | free-nodes
   - 未知 SS-09 | free-nodes
   - 未知 SS-10 | free-nodes
-  - 未知 SS-11 | free-nodes
   - 未知 SS-12 | free-nodes
   - 未知 SS-13 | free-nodes
   - 未知 SS-15 | free-nodes
@@ -630,7 +561,6 @@ proxy-groups:
   - 未知 SS-25 | free-nodes
   - 未知 SS-26 | free-nodes
   - 🇺🇸 US SS-27 | free-nodes
-  - 🇩🇪 DE SS-28 | free-nodes
   - 未知 SS-29 | free-nodes
   - 🇬🇧 GB TROJAN-31 | free-nodes
   - 🇬🇧 GB TROJAN-32 | free-nodes
