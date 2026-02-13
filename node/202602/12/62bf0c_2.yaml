@@ -12,6 +12,117 @@ log-level: debug
 mode: Rule
 port: 7892
 proxies:
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.145
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.59
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.46
+  type: ss
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇫🇷 FR SS-01 | free-nodes
+  password: etU8/fvCVPaqmKkXV6bX8v8ULI4Fch+EKvg19MoETLk=
+  port: 8390
+  server: 57.131.41.129
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR SS-02 | free-nodes
+  password: 52671647af0cffa0
+  port: 11201
+  server: 38.242.222.183
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-03 | free-nodes
+  password: 6OVeg18ylsOQMOvWVVfddO
+  port: 443
+  server: 194.150.220.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-04 | free-nodes
+  password: 94aae0510188e8c5
+  port: 11201
+  server: 141.95.106.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-05 | free-nodes
+  password: 9d97433688e7efd5
+  port: 44235
+  server: 163.171.206.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-06 | free-nodes
+  password: 1d1bc54689ed4b75
+  port: 26736
+  server: 119.159.245.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-07 | free-nodes
+  password: 29acd960ab8e3408
+  port: 46727
+  server: 157.185.173.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-08 | free-nodes
+  password: 2e5c75c35d7ee929
+  port: 19702
+  server: 163.171.213.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-09 | free-nodes
+  password: 37ef4f029f1ac0ac
+  port: 11201
+  server: 141.95.105.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-10 | free-nodes
+  password: 3bb08205cb6c8af0
+  port: 28026
+  server: 38.54.97.247
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-11 | free-nodes
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 193.135.174.135
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-12 | free-nodes
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 37.143.129.98
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13 | free-nodes
+  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
+  port: 49917
+  server: staging.lastilhame.monster
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-15 | free-nodes
+  password: aiXO0FnjYHg6ZKJAPohBVW
+  port: 16673
+  server: 185.253.116.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-16 | free-nodes
+  password: bSFMvNLHapp4ZrcGIXy9Vt
+  port: 43248
+  server: 5.181.2.73
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-17 | free-nodes
   password: eafad96826c79ddd
@@ -116,6 +227,24 @@ proxy-groups:
 - name: 🚀 全部节点
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -137,6 +266,24 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -156,6 +303,24 @@ proxy-groups:
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -177,6 +342,24 @@ proxy-groups:
 - name: 🌍 国外媒体
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -196,6 +379,24 @@ proxy-groups:
 - name: 📲 电报信息
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -215,6 +416,24 @@ proxy-groups:
 - name: Ⓜ️ 微软服务
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -234,6 +453,24 @@ proxy-groups:
 - name: 🍎 苹果服务
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -253,6 +490,24 @@ proxy-groups:
 - name: 🎯 全球直连
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -273,6 +528,24 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -293,6 +566,24 @@ proxy-groups:
   proxies:
   - REJECT
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
@@ -312,6 +603,24 @@ proxy-groups:
 - name: 🐟 漏网之鱼
   proxies:
   - DIRECT
+  - 🇻🇳VN²_30|2.3MB/s|GPT⁺|X|History 01
+  - 🇻🇳VN²_32|1.5MB/s|GPT⁺|YT|X|History 01
+  - 🇻🇳VN²_34|2.1MB/s|GPT⁺|X|History 01
+  - 🇫🇷 FR SS-01 | free-nodes
+  - 🇫🇷 FR SS-02 | free-nodes
+  - 未知 SS-03 | free-nodes
+  - 未知 SS-04 | free-nodes
+  - 未知 SS-05 | free-nodes
+  - 未知 SS-06 | free-nodes
+  - 未知 SS-07 | free-nodes
+  - 未知 SS-08 | free-nodes
+  - 未知 SS-09 | free-nodes
+  - 未知 SS-10 | free-nodes
+  - 未知 SS-11 | free-nodes
+  - 未知 SS-12 | free-nodes
+  - 未知 SS-13 | free-nodes
+  - 未知 SS-15 | free-nodes
+  - 未知 SS-16 | free-nodes
   - 未知 SS-17 | free-nodes
   - 未知 SS-20 | free-nodes
   - 🇯🇵 JP SS-21 | free-nodes
